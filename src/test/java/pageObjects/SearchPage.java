@@ -1,7 +1,10 @@
 package pageObjects;
 
-import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -9,29 +12,37 @@ import java.time.Duration;
 
 public class SearchPage {
 
-    private WebDriver driver;
-    private WebDriverWait wait;
+	private WebDriver driver;
+	private WebDriverWait wait;
 
-    private By projectIcon = By.cssSelector("ul:nth-child(2) > #sidebar-current-projects-item .fa-solid");
-    private By expandAllButton = By.linkText("Expand all");
-    private By specificProjectLink = By.linkText("Webstack - Portfolio Project - Pitch");
+	@FindBy(css = ".fa-magnifying-glass")
+	private WebElement searchIcon;
 
-    public SearchPage(WebDriver driver) {
-        this.setDriver(driver);
-        this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-    }
+	@FindBy(id = "search-bar")
+	private WebElement searchBar;
 
-    public void clickOnProjectIcon() {
-        wait.until(ExpectedConditions.elementToBeClickable(projectIcon)).click();
-    }
+	@FindBy(linkText = "Webstack - Portfolio Project - Pitch")
+	private WebElement projectLink;
 
-    public void clickOnExpandAllButton() {
-        wait.until(ExpectedConditions.elementToBeClickable(expandAllButton)).click();
-    }
+	public SearchPage(WebDriver driver) {
+		this.setDriver(driver);
+		this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		PageFactory.initElements(driver, this);
+	}
 
-    public void clickOnSpecificProjectLink() {
-        wait.until(ExpectedConditions.elementToBeClickable(specificProjectLink)).click();
-    }
+	public void clickSearchIcon() {
+		wait.until(ExpectedConditions.elementToBeClickable(searchIcon)).click();
+	}
+
+	public void enterSearchText(String text) {
+		WebElement searchBarElement = wait.until(ExpectedConditions.visibilityOf(searchBar));
+		searchBarElement.sendKeys(text);
+		searchBarElement.sendKeys(Keys.ENTER);
+	}
+
+	public void clickProjectLink() {
+		wait.until(ExpectedConditions.elementToBeClickable(projectLink)).click();
+	}
 
 	public WebDriver getDriver() {
 		return driver;
