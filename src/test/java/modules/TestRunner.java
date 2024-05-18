@@ -10,7 +10,8 @@ import org.junit.runner.RunWith;
 // features = { "src/test/java/features/LoginApp.feature" },
 //features = { "src/test/java/features/MyPlanningAlx.feature" },
 //features = { "src/test/java/features/MyProfilAlx.feature" },
-		features = { "src/test/java/features/MyCurriculums.feature" }, glue = { "modules",
+//features = { "src/test/java/features/MyCurriculumAlx.feature" },
+		features = { "src/test/java/features/MyProjectsAlx.feature" }, glue = { "modules",
 				"stepsDefinitions" }, tags = "@run")
 
 public class TestRunner {
