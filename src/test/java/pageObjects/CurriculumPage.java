@@ -1,53 +1,43 @@
 package pageObjects;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
-import java.time.Duration;
 
 public class CurriculumPage {
+
     private WebDriver driver;
-    private WebDriverWait wait;
 
-    @FindBy(css = "ul:nth-child(2) div:nth-child(2) > a")
-    private WebElement profilIcon;
+    // Locators for elements on the Curriculum Page
+    private By curriculumsIcon = By.cssSelector("ul:nth-child(2) > #sidebar-concepts-item > a");
+    private By capIcon = By.cssSelector("ul:nth-child(2) .fa-graduation-cap");
+    private By overviewLink = By.linkText("Overview");
+    private By closeButton = By.className("close");
+    private By transcriptLink = By.linkText("Show transcript");
 
-    @FindBy(css = "ul:nth-child(2) .inner")
-    private WebElement innerElement;
-
-    @FindBy(id = "user_avatar")
-    private WebElement avatarInput;
-
-    @FindBy(name = "commit")
-    private WebElement saveButton;
-
-    @FindBy(css = ".alert")
-    private WebElement alertMessage;
-
+    // Constructor
     public CurriculumPage(WebDriver driver) {
         this.driver = driver;
-        this.wait = new WebDriverWait(driver, Duration.ofSeconds(30));
-        PageFactory.initElements(driver, this);
     }
 
-    public void clickOnProfilIcon() {
-        wait.until(ExpectedConditions.elementToBeClickable(profilIcon)).click();
+    // Methods to interact with elements on the Curriculum Page
+    public WebElement getCurriculumsIcon() {
+        return driver.findElement(curriculumsIcon);
     }
 
-    public void changePicture(String filePath) {
-        wait.until(ExpectedConditions.elementToBeClickable(innerElement)).click();
-        wait.until(ExpectedConditions.elementToBeClickable(avatarInput)).sendKeys(filePath);
+    public WebElement getCapIcon() {
+        return driver.findElement(capIcon);
     }
 
-    public void clickOnSaveButton() {
-        wait.until(ExpectedConditions.elementToBeClickable(saveButton)).click();
+    public WebElement getOverviewLink() {
+        return driver.findElement(overviewLink);
     }
 
-    public String getAlertMessage() {
-        return wait.until(ExpectedConditions.visibilityOf(alertMessage)).getText();
+    public WebElement getCloseButton() {
+        return driver.findElement(closeButton);
+    }
+
+    public WebElement getTranscriptLink() {
+        return driver.findElement(transcriptLink);
     }
 }
