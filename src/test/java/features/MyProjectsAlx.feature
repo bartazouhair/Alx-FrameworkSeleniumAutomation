@@ -8,4 +8,4 @@ Feature: Project functionality of ALX
     Then I should be redirected to the dashboard
     And I click on the my Project icon
     Then I Click on the ExpandAll button
-    And Display all projetcs Alx
+    And Display last projects Alx
