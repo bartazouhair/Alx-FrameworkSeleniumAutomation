@@ -25,9 +25,9 @@ public class SDPlanningAlx {
     @And("I click on the My Planning icon")
     public void i_click_on_the_my_planning_icon() {
         try {
-            WebElement iconPlanning = driver.findElement(By.cssSelector("ul:nth-child(2) > li:nth-child(1) .icon"));
+            WebElement elementPlanning = driver.findElement(By.cssSelector("ul:nth-child(2) > li:nth-child(1) .icon"));
             Actions builder = new Actions(driver);
-            builder.moveToElement(iconPlanning).click().perform();
+            builder.moveToElement(elementPlanning).click().perform();
         } catch (NoSuchElementException e) {
             System.out.println("My Planning icon not found: " + e.getMessage());
         }
