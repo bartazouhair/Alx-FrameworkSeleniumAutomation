@@ -28,7 +28,7 @@ public class PropertiesFile {
             e.printStackTrace();
         }
         // Do Mapping
-        Enumeration keys = properties.keys();
+        Enumeration<Object> keys = properties.keys();
         while (keys.hasMoreElements()) {
             String key = (String) keys.nextElement();
             String value = properties.getProperty(key);

@@ -29,7 +29,7 @@ public class ProfilPage {
     private WebElement alertMessage;
 
     public ProfilPage(WebDriver driver) {
-        this.driver = driver;
+        this.setDriver(driver);
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(30));
         PageFactory.initElements(driver, this);
     }
@@ -50,4 +50,12 @@ public class ProfilPage {
     public String getAlertMessage() {
         return wait.until(ExpectedConditions.visibilityOf(alertMessage)).getText();
     }
+
+	public WebDriver getDriver() {
+		return driver;
+	}
+
+	public void setDriver(WebDriver driver) {
+		this.driver = driver;
+	}
 }

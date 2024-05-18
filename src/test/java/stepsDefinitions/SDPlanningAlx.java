@@ -19,7 +19,7 @@ public class SDPlanningAlx {
     public SDPlanningAlx() {
         SDPlanningAlx.driver = SDLoginApp.getDriver();
         this.planningPage = new PlanningPage(driver);
-        this.wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+        this.setWait(new WebDriverWait(driver, Duration.ofSeconds(30)));
     }
 
     @And("I click on the My Planning icon")
@@ -53,4 +53,12 @@ public class SDPlanningAlx {
             System.out.println("Zoom button not found: " + e.getMessage());
         }
     }
+
+	public WebDriverWait getWait() {
+		return wait;
+	}
+
+	public void setWait(WebDriverWait wait) {
+		this.wait = wait;
+	}
 }

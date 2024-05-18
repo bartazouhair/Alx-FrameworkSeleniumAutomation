@@ -8,26 +8,26 @@ import pageObjects.ProjectPage;
 
 public class SDProjectAlx {
 
-    private ProjectPage projectPage;
-    private static WebDriver driver;
+	private ProjectPage projectPage;
+	private static WebDriver driver;
 
-    public SDProjectAlx() {
-        SDProjectAlx.driver = SDLoginApp.getDriver();
-        this.projectPage = new ProjectPage(driver);
-    }
+	public SDProjectAlx() {
+		SDProjectAlx.driver = SDLoginApp.getDriver();
+		this.projectPage = new ProjectPage(driver);
+	}
 
-    @And("I click on the my Project icon")
-    public void i_click_on_the_my_Project_icon() {
-        projectPage.clickOnProjectIcon();
-    }
+	@And("I click on the my Project icon")
+	public void i_click_on_the_my_Project_icon() {
+		projectPage.clickOnProjectIcon();
+	}
 
-    @Then("I Click on the ExpandAll button")
-    public void I_click_on_the_ExpandAll_button() throws InterruptedException {
-        projectPage.clickOnExpandAllButton();
-    }
+	@Then("I Click on the ExpandAll button")
+	public void I_click_on_the_ExpandAll_button() {
+		projectPage.clickOnExpandAllButton();
+	}
 
-    @And("Display last projects Alx")
-    public void display_last_projects_alx() throws InterruptedException {
-        projectPage.clickOnSpecificProjectLink();
-    }
+	@And("Display last projects Alx")
+	public void display_last_projects_alx() {
+		projectPage.clickOnSpecificProjectLink();
+	}
 }

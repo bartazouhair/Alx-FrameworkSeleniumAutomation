@@ -7,7 +7,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-public class ProjectPage {
+public class SearchPage {
 
     private WebDriver driver;
     private WebDriverWait wait;
@@ -16,7 +16,7 @@ public class ProjectPage {
     private By expandAllButton = By.linkText("Expand all");
     private By specificProjectLink = By.linkText("Webstack - Portfolio Project - Pitch");
 
-    public ProjectPage(WebDriver driver) {
+    public SearchPage(WebDriver driver) {
         this.setDriver(driver);
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
     }

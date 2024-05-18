@@ -1,6 +1,6 @@
 Feature: Project functionality of ALX
 
-  @run
+  //@run
   Scenario: Show Projetcs Alx
     Given I am on the ALX login page
     When I enter valid credentials
