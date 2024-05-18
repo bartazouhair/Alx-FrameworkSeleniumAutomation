@@ -1,0 +1,47 @@
+package utils;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+
+import java.util.HashMap;
+
+public class BrowserFactory {
+
+    // To Do: configure browsers
+
+    static WebDriver factoryDriver;
+    private static HashMap<String, String> configurationPropertiesMap = PropertiesFile.read("src/test/resources/environment/config.properties");
+    static String webBrowserType = configurationPropertiesMap.get("browser");
+    static boolean headless = Boolean.parseBoolean(configurationPropertiesMap.get("isHeadless"));
+
+    public static WebDriver getFactoryDriver() {
+        String driverPath = "src/test/resources/drivers/";
+        switch (webBrowserType) {
+            case "chrome":
+                System.setProperty("webdriver.chrome.driver", driverPath + "chromedriver.exe");
+                ChromeOptions options = new ChromeOptions();
+                options.addArguments("--start-maximized");
+                options.addArguments("--ignore-certificate-errors");
+                options.addArguments("--disable-popup-blocking");
+                options.addArguments("--incognito");
+                options.setHeadless(headless);
+                factoryDriver = new ChromeDriver(options);
+                break;
+            case "ie":
+                System.setProperty("webdriver.ie.driver", driverPath + "IEDriverServer.exe");
+                factoryDriver = new InternetExplorerDriver();
+                break;
+            case "firefox":
+                System.setProperty("webdriver.gecko.driver", driverPath + "geckodriver.exe");
+                factoryDriver = new FirefoxDriver();
+                break;
+            default:
+                System.out.println("******************************************************");
+                break;
+        }
+        return factoryDriver;
+    }
+}
