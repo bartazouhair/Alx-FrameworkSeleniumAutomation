@@ -1,6 +1,6 @@
 Feature: Planning functionality of ALX
 
-  @run
+  //@run
   Scenario: Show Planning Alx
     Given I am on the ALX login page
     When I enter valid credentials

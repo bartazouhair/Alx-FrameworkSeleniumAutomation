@@ -10,3 +10,4 @@ Feature: Profil functionality of ALX
     Then I Change my picture
     Then Click on the Save Information button
     And Display the message: Your profile was successfully updated
+    Then Take a screenshort
