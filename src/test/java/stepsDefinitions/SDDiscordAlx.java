@@ -31,7 +31,7 @@ public class SDDiscordAlx {
 
 	public SDDiscordAlx() {
 		SDDiscordAlx.driver = SDLoginApp.getDriver();
-		this.discordPage = new DiscordPage(driver);
+		this.setDiscordPage(new DiscordPage(driver));
 		this.setWait(new WebDriverWait(driver, Duration.ofSeconds(30)));
 	}
 
@@ -97,5 +97,21 @@ public class SDDiscordAlx {
 
 	public void setWait(WebDriverWait wait) {
 		this.wait = wait;
+	}
+
+	public DiscordPage getDiscordPage() {
+		return discordPage;
+	}
+
+	public void setDiscordPage(DiscordPage discordPage) {
+		this.discordPage = discordPage;
+	}
+
+	public JavascriptExecutor getJs() {
+		return js;
+	}
+
+	public void setJs(JavascriptExecutor js) {
+		this.js = js;
 	}
 }
