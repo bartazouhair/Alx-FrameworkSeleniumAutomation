@@ -3,6 +3,7 @@ package stepsDefinitions;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 import io.cucumber.java.en.Then;
+import io.cucumber.java.After;
 import io.cucumber.java.en.And;
 import java.io.File;
 import java.io.IOException;
@@ -72,7 +73,7 @@ public class SDLoginApp {
 		String timestamp = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMdd_HHmmss"));
 		String fileName = "Screenshot_Login_" + "Time_" + timestamp + ".png";
 
-		String destinationFolder = "src/test/resources/Screenshorts/Login";
+		String destinationFolder = "src/test/resources/Screenshots/Login";
 
 		File folder = new File(destinationFolder);
 		if (!folder.exists()) {
@@ -90,5 +91,12 @@ public class SDLoginApp {
 
 	public static WebDriver getDriver() {
 		return driver;
+	}
+
+	@After
+	public void tearDown() {
+		if (driver != null) {
+			driver.quit();
+		}
 	}
 }
