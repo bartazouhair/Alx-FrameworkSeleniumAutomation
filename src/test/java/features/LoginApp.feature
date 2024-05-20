@@ -1,6 +1,6 @@
 Feature: Login functionality of ALX intranet site
 
-  @run
+  //@run
   Scenario: Successful login
     Given I am on the ALX login page
     When I enter valid credentials

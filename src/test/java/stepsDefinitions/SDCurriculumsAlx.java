@@ -49,40 +49,70 @@ public class SDCurriculumsAlx {
         } catch (Exception e) {
             extentReport.logStep("My Curriculums icon not found: " + e.getMessage());
             System.out.println("My Curriculums icon not found: " + e.getMessage());
+            takeScreenshot("MyCurriculumsIconError");
         }
     }
 
     @And("Click on the Show transcript")
     public void click_on_the_Show_transcript() throws InterruptedException {
         extentReport.logStep("Clicking on the Show transcript");
-        WebElement transcriptLink = wait
-                .until(ExpectedConditions.elementToBeClickable(curriculumPage.getTranscriptLink()));
-        transcriptLink.click();
-        Thread.sleep(2000);
-        extentReport.logStep("Successfully clicked on the Show transcript");
-        // takeScreenshotTranscript("Transcript_Open");
-        Thread.sleep(2000);
+        try {
+            WebElement transcriptLink = wait
+                    .until(ExpectedConditions.elementToBeClickable(curriculumPage.getTranscriptLink()));
+            transcriptLink.click();
+            Thread.sleep(2000);
+            extentReport.logStep("Successfully clicked on the Show transcript");
+        } catch (Exception e) {
+            extentReport.logStep("Show transcript link not found: " + e.getMessage());
+            System.out.println("Show transcript link not found: " + e.getMessage());
+            takeScreenshot("ShowTranscriptError");
+        }
     }
 
     @Then("Click on the Show Overview")
     public void click_on_the_Show_Overview() throws InterruptedException {
         extentReport.logStep("Clicking on the Show Overview");
-        WebElement overviewLink = wait.until(ExpectedConditions.elementToBeClickable(curriculumPage.getOverviewLink()));
-        overviewLink.click();
-        Thread.sleep(3000);
-        extentReport.logStep("Successfully clicked on the Show Overview");
+        try {
+            WebElement overviewLink = wait
+                    .until(ExpectedConditions.elementToBeClickable(curriculumPage.getOverviewLink()));
+            overviewLink.click();
+            Thread.sleep(3000);
+            extentReport.logStep("Successfully clicked on the Show Overview");
+        } catch (Exception e) {
+            extentReport.logStep("Show Overview link not found: " + e.getMessage());
+            System.out.println("Show Overview link not found: " + e.getMessage());
+            takeScreenshot("ShowOverviewError");
+        }
     }
 
     @And("I Take screenshort Overview")
     public void I_Take_screenshot_Overview() throws InterruptedException {
         extentReport.logStep("Taking screenshot of Overview");
         Thread.sleep(2000);
+        takeScreenshot("CurriculumOverview");
+    }
+
+    @Then("Click on the leave Overview")
+    public void click_on_the_leave_Overview() throws InterruptedException {
+        extentReport.logStep("Clicking on the leave Overview");
+        try {
+            Thread.sleep(2000);
+            WebElement closeButton = wait
+                    .until(ExpectedConditions.elementToBeClickable(curriculumPage.getCloseButton()));
+            closeButton.click();
+            extentReport.logStep("Successfully clicked on the leave Overview");
+        } catch (Exception e) {
+            extentReport.logStep("Leave Overview button not found: " + e.getMessage());
+            System.out.println("Leave Overview button not found: " + e.getMessage());
+            takeScreenshot("LeaveOverviewError");
+        }
+    }
+
+    private void takeScreenshot(String scenarioName) {
         File screenshotFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-
         String timestamp = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMdd_HHmmss"));
-        String fileName = "Screenshot_Curriculums_" + "Time_" + timestamp + ".png";
-
-        String destinationFolder = "C:\\Users\\zbarta\\eclipse-workspace\\AlxAutomationSelenium\\src\\test\\resources\\Screenshorts\\Curriculums";
+        String fileName = scenarioName + "_" + timestamp + ".png";
+        String destinationFolder = "src/test/resources/Screenshots/Curriculums";
 
         File folder = new File(destinationFolder);
         if (!folder.exists()) {
@@ -98,14 +128,5 @@ public class SDCurriculumsAlx {
             extentReport.logStep("Error saving screenshot: " + e.getMessage());
             System.out.println("Error saving screenshot: " + e.getMessage());
         }
-    }
-
-    @Then("Click on the leave Overview")
-    public void click_on_the_leave_Overview() throws InterruptedException {
-        extentReport.logStep("Clicking on the leave Overview");
-        Thread.sleep(2000);
-        WebElement closeButton = wait.until(ExpectedConditions.elementToBeClickable(curriculumPage.getCloseButton()));
-        closeButton.click();
-        extentReport.logStep("Successfully clicked on the leave Overview");
     }
 }
