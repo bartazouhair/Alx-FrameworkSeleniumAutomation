@@ -1,6 +1,6 @@
 Feature: Curriculums functionality of ALX
 
-  @run
+  //@run
   Scenario: Show Curriculums Alx
     Given I am on the ALX login page
     When I enter valid credentials

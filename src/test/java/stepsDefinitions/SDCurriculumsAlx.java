@@ -33,7 +33,7 @@ public class SDCurriculumsAlx {
         SDCurriculumsAlx.driver = SDLoginApp.getDriver();
         this.curriculumPage = new CurriculumPage(driver);
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        this.extentReport = Hook.getExtentReport(); // Get instance of Extent Report
+        this.extentReport = Hook.getExtentReport(); 
     }
 
     @And("I click on the my Curriculums icon")

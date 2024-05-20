@@ -1,6 +1,6 @@
 Feature: Profil functionality of ALX
 
-  //@run
+  @run
   Scenario: Show Profil Alx
     Given I am on the ALX login page
     When I enter valid credentials

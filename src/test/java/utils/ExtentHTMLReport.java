@@ -10,19 +10,18 @@ public class ExtentHTMLReport {
 
 	public void generateReport() {
 		try {
-			// Utilisation d'un chemin relatif pour le rapport
 			String path = System.getProperty("user.dir") + "/reports/index.html";
 
 			ExtentSparkReporter reporter = new ExtentSparkReporter(path);
 			reporter.config().setReportName("Alx Automation Results");
-			reporter.config().setDocumentTitle("Test Alx");
+			reporter.config().setDocumentTitle(" Results Test Alx");
 
 			extent = new ExtentReports();
 			extent.attachReporter(reporter);
 			extent.setSystemInfo("Tester", "Zouhair BARTA");
 			System.out.println("Extent report initialized at: " + path);
 		} catch (Exception e) {
-			e.printStackTrace(); // Affichez la pile d'erreurs complète
+			e.printStackTrace();
 			System.out.println("Error initializing Extent report: " + e.getMessage());
 		}
 	}

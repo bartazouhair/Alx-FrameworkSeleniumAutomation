@@ -16,48 +16,48 @@ import java.time.format.DateTimeFormatter;
 import static stepsDefinitions.SDLoginApp.getDriver;
 
 public class Hook {
-    private static ExtentHTMLReport extentReport = new ExtentHTMLReport();
+	private static ExtentHTMLReport extentReport = new ExtentHTMLReport();
 
-    @Before
-    public void beforeScenario(Scenario scenario) {
-        extentReport.generateReport();
-        extentReport.startTest(scenario.getName());
-    }
+	@Before
+	public void beforeScenario(Scenario scenario) {
+		extentReport.generateReport();
+		extentReport.startTest(scenario.getName());
+	}
 
-    @After
-    public void afterScenario(Scenario scenario) {
-        if (scenario.isFailed()) {
-            extentReport.logStep("Scenario failed: " + scenario.getName());
-            takeScreenshot(scenario);
-        } else {
-            extentReport.logStep("Scenario passed: " + scenario.getName());
-        }
-        extentReport.flushReport();
-    }
+	@After
+	public void afterScenario(Scenario scenario) {
+		if (scenario.isFailed()) {
+			extentReport.logStep("Scenario failed: " + scenario.getName());
+			takeScreenshot(scenario);
+		} else {
+			extentReport.logStep("Scenario passed: " + scenario.getName());
+		}
+		extentReport.flushReport();
+	}
 
-    private void takeScreenshot(Scenario scenario) {
-        File screenshotFile = ((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.FILE);
-        String timestamp = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMdd_HHmmss"));
-        String fileName = "FailedScenario_" + scenario.getName() + "_" + timestamp + ".png";
-        String destinationFolder = "src/test/resources/Screenshorts/Failures";
+	private void takeScreenshot(Scenario scenario) {
+		File screenshotFile = ((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.FILE);
+		String timestamp = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMdd_HHmmss"));
+		String fileName = "FailedScenario_" + scenario.getName() + "_" + timestamp + ".png";
+		String destinationFolder = "/AlxAutomationSelenium/src/test/resources/Screenshorts/Failures";
 
-        File folder = new File(destinationFolder);
-        if (!folder.exists()) {
-            folder.mkdirs();
-        }
+		File folder = new File(destinationFolder);
+		if (!folder.exists()) {
+			folder.mkdirs();
+		}
 
-        try {
-            Path destinationPath = Path.of(destinationFolder, fileName);
-            Files.copy(screenshotFile.toPath(), destinationPath, StandardCopyOption.REPLACE_EXISTING);
-            System.out.println("Screenshot saved: " + destinationPath);
-            extentReport.logStep("Screenshot saved: " + destinationPath);
-        } catch (IOException e) {
-            System.out.println("Error saving screenshot: " + e.getMessage());
-            extentReport.logStep("Error saving screenshot: " + e.getMessage());
-        }
-    }
+		try {
+			Path destinationPath = Path.of(destinationFolder, fileName);
+			Files.copy(screenshotFile.toPath(), destinationPath, StandardCopyOption.REPLACE_EXISTING);
+			System.out.println("Screenshot saved: " + destinationPath);
+			extentReport.logStep("Screenshot saved: " + destinationPath);
+		} catch (IOException e) {
+			System.out.println("Error saving screenshot: " + e.getMessage());
+			extentReport.logStep("Error saving screenshot: " + e.getMessage());
+		}
+	}
 
-    public static ExtentHTMLReport getExtentReport() {
-        return extentReport;
-    }
+	public static ExtentHTMLReport getExtentReport() {
+		return extentReport;
+	}
 }

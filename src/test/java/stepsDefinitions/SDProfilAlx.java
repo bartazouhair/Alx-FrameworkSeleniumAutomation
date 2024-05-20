@@ -29,7 +29,7 @@ public class SDProfilAlx {
         SDProfilAlx.driver = SDLoginApp.getDriver();
         this.profilPage = new ProfilPage(driver);
         this.constante = new Constante();
-        this.extentReport = Hook.getExtentReport(); // Get instance of Extent Report
+        this.extentReport = Hook.getExtentReport(); 
     }
 
     @And("I click on the my Profil icon")
