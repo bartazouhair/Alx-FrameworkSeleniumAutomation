@@ -3,6 +3,7 @@ package utils;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+import com.aventstack.extentreports.reporter.configuration.Theme;
 
 public class ExtentHTMLReport {
 	private ExtentReports extent;
@@ -14,7 +15,8 @@ public class ExtentHTMLReport {
 
 			ExtentSparkReporter reporter = new ExtentSparkReporter(path);
 			reporter.config().setReportName("Alx Automation Results");
-			reporter.config().setDocumentTitle(" Results Test Alx");
+			reporter.config().setDocumentTitle("Results Test Alx");
+			reporter.config().setTheme(Theme.STANDARD);
 
 			extent = new ExtentReports();
 			extent.attachReporter(reporter);
