@@ -42,6 +42,7 @@ public class SDPlanningAlx {
     public void i_click_on_the_my_planning_icon() {
         extentReport.logStep("Clicking on the My Planning icon");
         try {
+            // Find the My Planning icon and click it using Actions
             WebElement elementPlanning = driver.findElement(By.cssSelector("ul:nth-child(2) > li:nth-child(1) .icon"));
             Actions builder = new Actions(driver);
             builder.moveToElement(elementPlanning).click().perform();
@@ -56,9 +57,10 @@ public class SDPlanningAlx {
     public void i_click_on_the_day_button_to_see_the_projects_for_the_day() throws InterruptedException {
         extentReport.logStep("Clicking on the Day button to see the projects for the day");
         try {
+            // Find the Day button and click it
             WebElement dayButton = planningPage.getDayTabButton();
             dayButton.click();
-            Thread.sleep(3000);
+            Thread.sleep(3000); // Wait for 3 seconds to ensure the view is updated
             extentReport.logStep("Successfully clicked on the Day button");
         } catch (NoSuchElementException e) {
             extentReport.logStep("Day button not found: " + e.getMessage());
@@ -70,6 +72,7 @@ public class SDPlanningAlx {
     public void i_click_on_the_zoom_button_to_enlarge_the_planning_view() {
         extentReport.logStep("Clicking on the Zoom button to enlarge the planning view");
         try {
+            // Find the Zoom button and click it
             WebElement zoomButton = planningPage.getZoomButton();
             zoomButton.click();
             extentReport.logStep("Successfully clicked on the Zoom button");
@@ -80,22 +83,25 @@ public class SDPlanningAlx {
     }
 
     @Then("Take screenshort")
-    public void take_screenshort() throws InterruptedException {
+    public void take_screenshot() throws InterruptedException {
         extentReport.logStep("Taking screenshot of planning view");
-        Thread.sleep(2000);
+        Thread.sleep(2000); // Pause for a moment to ensure the page is fully loaded
         File screenshotFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 
+        // Generate a timestamped file name for the screenshot
         String timestamp = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMdd_HHmmss"));
         String fileName = "Screenshot_Planning_" + "Time_" + timestamp + ".png";
 
-        String destinationFolder = "C:\\Users\\zbarta\\eclipse-workspace\\AlxAutomationSelenium\\src\\test\\resources\\Screenshorts\\Planning";
+        // Define the destination folder for screenshots
+        String destinationFolder = "C:\\Users\\zbarta\\eclipse-workspace\\AlxAutomationSelenium\\src\\test\\resources\\Screenshots\\Planning";
 
         File folder = new File(destinationFolder);
         if (!folder.exists()) {
-            folder.mkdirs();
+            folder.mkdirs(); // Create the folder if it doesn't exist
         }
 
         try {
+            // Copy the screenshot to the destination folder
             Path destinationPath = Path.of(destinationFolder, fileName);
             Files.copy(screenshotFile.toPath(), destinationPath, StandardCopyOption.REPLACE_EXISTING);
             extentReport.logStep("Screenshot saved: " + destinationPath);

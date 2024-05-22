@@ -2,47 +2,60 @@ package utils;
 
 public class Constante {
 
-	private String useremail = "bartazouhair@gmail.com";
-	private String password = "Zouhair.100";
-	private String image = "C:\\Users\\zbarta\\Documents\\BARTA ZOUHAIR\\Capgemini Zouhair Barta\\Stage PFE\\Me\\BARTA Zouhair.jpg";
+    // User email
+    private String useremail = "bartazouhair@gmail.com";
+    
+    // User password
+    private String password = "Zouhair.100";
+    
+    // Path to the image file
+    private String image = "C:\\Users\\zbarta\\Documents\\BARTA ZOUHAIR\\Capgemini Zouhair Barta\\Stage PFE\\Me\\Photo.png";
 
-	public Constante() {
-	}
+    // Default constructor
+    public Constante() {
+    }
 
-	public Constante(String useremail, String password, String image) {
-		super();
-		this.useremail = useremail;
-		this.password = password;
-		this.image = image;
-	}
+    // Parameterized constructor
+    public Constante(String useremail, String password, String image) {
+        super();
+        this.useremail = useremail;
+        this.password = password;
+        this.image = image;
+    }
 
-	public String getUseremail() {
-		return useremail;
-	}
+    // Getter for user email
+    public String getUseremail() {
+        return useremail;
+    }
 
-	public void setUseremail(String useremail) {
-		this.useremail = useremail;
-	}
+    // Setter for user email
+    public void setUseremail(String useremail) {
+        this.useremail = useremail;
+    }
 
-	public String getPassword() {
-		return password;
-	}
+    // Getter for password
+    public String getPassword() {
+        return password;
+    }
 
-	public void setPassword(String password) {
-		this.password = password;
-	}
+    // Setter for password
+    public void setPassword(String password) {
+        this.password = password;
+    }
 
-	public String getImage() {
-		return image;
-	}
+    // Getter for image path
+    public String getImage() {
+        return image;
+    }
 
-	public void setImage(String image) {
-		this.image = image;
-	}
+    // Setter for image path
+    public void setImage(String image) {
+        this.image = image;
+    }
 
-	@Override
-	public String toString() {
-		return "Constante [useremail=" + useremail + ", password=" + password + ", image=" + image + "]";
-	}
-
+    // Override toString method to provide string representation of the object
+    @Override
+    public String toString() {
+        return "Constante [useremail=" + useremail + ", password=" + password + ", image=" + image + "]";
+    }
 }

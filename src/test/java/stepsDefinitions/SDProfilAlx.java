@@ -25,6 +25,7 @@ public class SDProfilAlx {
     private Constante constante;
     private ExtentHTMLReport extentReport;
 
+    // Constructor to initialize the required objects
     public SDProfilAlx() {
         SDProfilAlx.driver = SDLoginApp.getDriver();
         this.profilPage = new ProfilPage(driver);
@@ -32,6 +33,7 @@ public class SDProfilAlx {
         this.extentReport = Hook.getExtentReport(); 
     }
 
+    // Step definition for clicking on the profile icon
     @And("I click on the my Profil icon")
     public void i_click_on_the_my_Profil_icon() {
         extentReport.logStep("Clicking on the my Profil icon");
@@ -44,6 +46,7 @@ public class SDProfilAlx {
         }
     }
 
+    // Step definition for changing the profile picture
     @Then("I Change my picture")
     public void I_change_my_picture() {
         extentReport.logStep("Changing profile picture");
@@ -56,6 +59,7 @@ public class SDProfilAlx {
         }
     }
 
+    // Step definition for clicking the Save Information button
     @Then("Click on the Save Information button")
     public void click_on_the_Save_Information_button() {
         extentReport.logStep("Clicking on the Save Information button");
@@ -68,6 +72,7 @@ public class SDProfilAlx {
         }
     }
 
+    // Step definition for displaying the success message
     @And("Display the message: Your profile was successfully updated")
     public void display_the_message_Your_profile_was_successfully_updated() {
         extentReport.logStep("Displaying the message: Your profile was successfully updated");
@@ -81,10 +86,11 @@ public class SDProfilAlx {
         }
     }
 
+    // Step definition for taking a screenshot
     @Then("Take a screenshort")
     public void take_a_screenshort() throws InterruptedException {
         extentReport.logStep("Taking screenshot of profile update");
-        Thread.sleep(2000);
+        Thread.sleep(2000); // Pause to allow any UI updates to complete
         File screenshotFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 
         String timestamp = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMdd_HHmmss"));
@@ -94,7 +100,7 @@ public class SDProfilAlx {
 
         File folder = new File(destinationFolder);
         if (!folder.exists()) {
-            folder.mkdirs();
+            folder.mkdirs(); // Create the directory if it does not exist
         }
 
         try {

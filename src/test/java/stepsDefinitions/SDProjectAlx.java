@@ -24,12 +24,14 @@ public class SDProjectAlx {
     private static WebDriver driver;
     private ExtentHTMLReport extentReport;
 
+    // Constructor to initialize the required objects
     public SDProjectAlx() {
         SDProjectAlx.driver = SDLoginApp.getDriver();
         this.projectPage = new ProjectPage(driver);
         this.extentReport = Hook.getExtentReport(); // Get instance of Extent Report
     }
 
+    // Step definition for clicking on the project icon
     @And("I click on the my Project icon")
     public void i_click_on_the_my_Project_icon() {
         extentReport.logStep("Clicking on the my Project icon");
@@ -37,6 +39,7 @@ public class SDProjectAlx {
         extentReport.logStep("Successfully clicked on the my Project icon");
     }
 
+    // Step definition for clicking the ExpandAll button
     @Then("I Click on the ExpandAll button")
     public void I_click_on_the_ExpandAll_button() {
         extentReport.logStep("Clicking on the ExpandAll button");
@@ -44,6 +47,7 @@ public class SDProjectAlx {
         extentReport.logStep("Successfully clicked on the ExpandAll button");
     }
 
+    // Step definition for displaying the last projects
     @And("Display last projects Alx")
     public void display_last_projects_alx() {
         extentReport.logStep("Displaying last projects Alx");
@@ -51,10 +55,11 @@ public class SDProjectAlx {
         extentReport.logStep("Successfully displayed last projects Alx");
     }
 
+    // Step definition for taking a screenshot
     @Then("Take Screenshort")
     public void take_Screenshort() throws InterruptedException {
         extentReport.logStep("Taking screenshot of project view");
-        Thread.sleep(2000);
+        Thread.sleep(2000); // Pause to allow any UI updates to complete
         File screenshotFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 
         String timestamp = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMdd_HHmmss"));
@@ -64,7 +69,7 @@ public class SDProjectAlx {
 
         File folder = new File(destinationFolder);
         if (!folder.exists()) {
-            folder.mkdirs();
+            folder.mkdirs(); // Create the directory if it does not exist
         }
 
         try {
