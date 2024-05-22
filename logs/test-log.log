@@ -26426,3 +26426,2440 @@ java.io.IOException: Une connexion existante a dû être fermée par l’hôte distant
 2024-05-21 13:27:09 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js_fr.ftl"): Not found
 2024-05-21 13:27:09 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
 2024-05-21 13:27:09 DEBUG cache:45 - Loading template for "commons/commons-inject-js.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl"
+2024-05-21 16:41:59 DEBUG InternalLoggerFactory:63 - Using SLF4J as the default logging framework
+2024-05-21 16:41:59 DEBUG ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+2024-05-21 16:41:59 DEBUG ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+2024-05-21 16:41:59 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1286528d
+2024-05-21 16:41:59 DEBUG PlatformDependent0:496 - -Dio.netty.noUnsafe: false
+2024-05-21 16:41:59 DEBUG PlatformDependent0:1000 - Java version: 11
+2024-05-21 16:41:59 DEBUG PlatformDependent0:137 - sun.misc.Unsafe.theUnsafe: available
+2024-05-21 16:41:59 DEBUG PlatformDependent0:161 - sun.misc.Unsafe.copyMemory: available
+2024-05-21 16:41:59 DEBUG PlatformDependent0:193 - sun.misc.Unsafe.storeFence: available
+2024-05-21 16:41:59 DEBUG PlatformDependent0:236 - java.nio.Buffer.address: available
+2024-05-21 16:41:59 DEBUG PlatformDependent0:320 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2024-05-21 16:41:59 DEBUG PlatformDependent0:385 - java.nio.Bits.unaligned: available, true
+2024-05-21 16:41:59 DEBUG PlatformDependent0:452 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @52102734
+2024-05-21 16:41:59 DEBUG PlatformDependent0:482 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2024-05-21 16:41:59 DEBUG PlatformDependent:1159 - sun.misc.Unsafe: available
+2024-05-21 16:41:59 DEBUG PlatformDependent:1270 - maxDirectMemory: 2097152000 bytes (maybe)
+2024-05-21 16:41:59 DEBUG PlatformDependent:1289 - -Dio.netty.tmpdir: C:\Users\zbarta\AppData\Local\Temp (java.io.tmpdir)
+2024-05-21 16:41:59 DEBUG PlatformDependent:1368 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2024-05-21 16:41:59 DEBUG PlatformDependent:1119 - Platform: Windows
+2024-05-21 16:41:59 DEBUG PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+2024-05-21 16:41:59 DEBUG PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2024-05-21 16:41:59 DEBUG CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+2024-05-21 16:41:59 DEBUG PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+2024-05-21 16:41:59 DEBUG PlatformDependent:1010 - org.jctools-core.MpscChunkedArrayQueue: available
+2024-05-21 16:41:59 DEBUG InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2024-05-21 16:41:59 DEBUG InternalThreadLocalMap:89 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2024-05-21 16:42:00 DEBUG JdkSslContext:83 - Default protocols (JDK): [TLSv1.3, TLSv1.2, TLSv1.1, TLSv1] 
+2024-05-21 16:42:00 DEBUG JdkSslContext:84 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2024-05-21 16:42:00 DEBUG MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 16
+2024-05-21 16:42:00 DEBUG NioEventLoop:110 - -Dio.netty.noKeySetOptimization: false
+2024-05-21 16:42:00 DEBUG NioEventLoop:111 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2024-05-21 16:42:00 DEBUG PooledByteBufAllocator:157 - -Dio.netty.allocator.numHeapArenas: 16
+2024-05-21 16:42:00 DEBUG PooledByteBufAllocator:158 - -Dio.netty.allocator.numDirectArenas: 16
+2024-05-21 16:42:00 DEBUG PooledByteBufAllocator:160 - -Dio.netty.allocator.pageSize: 8192
+2024-05-21 16:42:00 DEBUG PooledByteBufAllocator:165 - -Dio.netty.allocator.maxOrder: 9
+2024-05-21 16:42:00 DEBUG PooledByteBufAllocator:169 - -Dio.netty.allocator.chunkSize: 4194304
+2024-05-21 16:42:00 DEBUG PooledByteBufAllocator:170 - -Dio.netty.allocator.smallCacheSize: 256
+2024-05-21 16:42:00 DEBUG PooledByteBufAllocator:171 - -Dio.netty.allocator.normalCacheSize: 64
+2024-05-21 16:42:00 DEBUG PooledByteBufAllocator:172 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2024-05-21 16:42:00 DEBUG PooledByteBufAllocator:173 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2024-05-21 16:42:00 DEBUG PooledByteBufAllocator:174 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2024-05-21 16:42:00 DEBUG PooledByteBufAllocator:175 - -Dio.netty.allocator.useCacheForAllThreads: false
+2024-05-21 16:42:00 DEBUG PooledByteBufAllocator:176 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2024-05-21 16:42:00 DEBUG ByteBufUtil:87 - -Dio.netty.allocator.type: pooled
+2024-05-21 16:42:00 DEBUG ByteBufUtil:96 - -Dio.netty.threadLocalDirectBufferSize: 0
+2024-05-21 16:42:00 DEBUG ByteBufUtil:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2024-05-21 16:42:01 DEBUG DefaultChannelId:79 - -Dio.netty.processId: 14116 (auto-detected)
+2024-05-21 16:42:01 DEBUG NetUtil:136 - -Djava.net.preferIPv4Stack: false
+2024-05-21 16:42:01 DEBUG NetUtil:137 - -Djava.net.preferIPv6Addresses: false
+2024-05-21 16:42:02 DEBUG NetUtilInitializations:129 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2024-05-21 16:42:02 DEBUG NetUtil:191 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2024-05-21 16:42:03 DEBUG DefaultChannelId:101 - -Dio.netty.machineId: 94:e6:f7:ff:fe:ba:e7:6c (auto-detected)
+2024-05-21 16:42:03 DEBUG AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+2024-05-21 16:42:03 DEBUG AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+2024-05-21 16:42:03 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@a176d65
+2024-05-21 16:42:03 DEBUG NettyConnectListener:73 - Using new Channel '[id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]' for 'POST' to '/session'
+2024-05-21 16:42:03 DEBUG Recycler:85 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2024-05-21 16:42:03 DEBUG Recycler:86 - -Dio.netty.recycler.ratio: 8
+2024-05-21 16:42:03 DEBUG Recycler:87 - -Dio.netty.recycler.chunkSize: 32
+2024-05-21 16:42:03 DEBUG Recycler:88 - -Dio.netty.recycler.blocking: false
+2024-05-21 16:42:07 DEBUG Brotli:38 - brotli4j not in the classpath; Brotli support will be unavailable.
+2024-05-21 16:42:07 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 623
+Content-Type: application/json; charset=utf-8
+host: localhost:14658
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 865
+
+2024-05-21 16:42:07 DEBUG ChannelManager:270 - Adding key: http://localhost:14658 for channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]
+2024-05-21 16:42:07 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:14658 : 1
+2024-05-21 16:42:08 DEBUG NettyConnectListener:73 - Using new Channel '[id: 0x21c0e02d, L:/127.0.0.1:65322 - R:localhost/127.0.0.1:65315]' for 'GET' to '/json/version'
+2024-05-21 16:42:08 DEBUG HttpHandler:70 - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /json/version HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+host: localhost:65315
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Security-Policy: frame-ancestors 'none'
+Content-Type: application/json; charset=UTF-8
+content-length: 422
+
+2024-05-21 16:42:08 DEBUG ChannelManager:270 - Adding key: http://localhost:65315 for channel [id: 0x21c0e02d, L:/127.0.0.1:65322 - R:localhost/127.0.0.1:65315]
+2024-05-21 16:42:08 DEBUG ThreadLocalRandom:214 - -Dio.netty.initialSeedUniquifier: 0xc2fc3dd947257727
+2024-05-21 16:42:08 DEBUG NettyConnectListener:73 - Using new Channel '[id: 0xc9c7ad40, L:/127.0.0.1:65323 - R:localhost/127.0.0.1:65315]' for 'GET' to '/devtools/browser/0787d390-b9ab-4bed-94a7-d4e1fbf4a0eb'
+2024-05-21 16:42:08 DEBUG WebSocketHandler:105 - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /devtools/browser/0787d390-b9ab-4bed-94a7-d4e1fbf4a0eb HTTP/1.1
+upgrade: websocket
+connection: upgrade
+sec-websocket-key: PMptlkwr0fw3lf+p88Q3AA==
+sec-websocket-version: 13
+origin: http://localhost:65315
+host: localhost:65315
+accept: */*
+user-agent: AHC/2.1
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 101 WebSocket Protocol Handshake
+Upgrade: WebSocket
+Connection: Upgrade
+Sec-WebSocket-Accept: gEqi4oBRzZDcxsN/icue2HIm9Nw=
+
+2024-05-21 16:42:08 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]' for 'POST' to 'http://localhost:14658/session/70d2c9031b9cc0b36470e636642d2a3a/url'
+2024-05-21 16:42:08 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658] for POST '/session/70d2c9031b9cc0b36470e636642d2a3a/url'
+2024-05-21 16:42:08 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65315 : 1
+2024-05-21 16:42:10 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65315 : 1
+2024-05-21 16:42:11 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65315 : 1
+2024-05-21 16:42:12 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65315 : 1
+2024-05-21 16:42:13 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65315 : 1
+2024-05-21 16:42:14 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65315 : 1
+2024-05-21 16:42:15 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65315 : 1
+2024-05-21 16:42:16 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65315 : 1
+2024-05-21 16:42:17 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65315 : 1
+2024-05-21 16:42:18 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65315 : 1
+2024-05-21 16:42:19 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/70d2c9031b9cc0b36470e636642d2a3a/url HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 75
+Content-Type: application/json; charset=utf-8
+host: localhost:14658
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2024-05-21 16:42:19 DEBUG ChannelManager:270 - Adding key: http://localhost:14658 for channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]
+2024-05-21 16:42:19 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]' for 'POST' to 'http://localhost:14658/session/70d2c9031b9cc0b36470e636642d2a3a/element'
+2024-05-21 16:42:19 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658] for POST '/session/70d2c9031b9cc0b36470e636642d2a3a/element'
+2024-05-21 16:42:19 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/70d2c9031b9cc0b36470e636642d2a3a/element HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 55
+Content-Type: application/json; charset=utf-8
+host: localhost:14658
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 125
+
+2024-05-21 16:42:19 DEBUG ChannelManager:270 - Adding key: http://localhost:14658 for channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]
+2024-05-21 16:42:19 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]' for 'POST' to 'http://localhost:14658/session/70d2c9031b9cc0b36470e636642d2a3a/element/f.B1DDD2C08757471B64623964348DC337.d.554BAC713A1358A56E6D2EAE0A7B5758.e.3/value'
+2024-05-21 16:42:19 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658] for POST '/session/70d2c9031b9cc0b36470e636642d2a3a/element/f.B1DDD2C08757471B64623964348DC337.d.554BAC713A1358A56E6D2EAE0A7B5758.e.3/value'
+2024-05-21 16:42:19 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/70d2c9031b9cc0b36470e636642d2a3a/element/f.B1DDD2C08757471B64623964348DC337.d.554BAC713A1358A56E6D2EAE0A7B5758.e.3/value HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 338
+Content-Type: application/json; charset=utf-8
+host: localhost:14658
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2024-05-21 16:42:19 DEBUG ChannelManager:270 - Adding key: http://localhost:14658 for channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]
+2024-05-21 16:42:19 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]' for 'POST' to 'http://localhost:14658/session/70d2c9031b9cc0b36470e636642d2a3a/element'
+2024-05-21 16:42:19 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658] for POST '/session/70d2c9031b9cc0b36470e636642d2a3a/element'
+2024-05-21 16:42:19 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/70d2c9031b9cc0b36470e636642d2a3a/element HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 58
+Content-Type: application/json; charset=utf-8
+host: localhost:14658
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 125
+
+2024-05-21 16:42:19 DEBUG ChannelManager:270 - Adding key: http://localhost:14658 for channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]
+2024-05-21 16:42:19 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]' for 'POST' to 'http://localhost:14658/session/70d2c9031b9cc0b36470e636642d2a3a/element/f.B1DDD2C08757471B64623964348DC337.d.554BAC713A1358A56E6D2EAE0A7B5758.e.4/value'
+2024-05-21 16:42:19 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658] for POST '/session/70d2c9031b9cc0b36470e636642d2a3a/element/f.B1DDD2C08757471B64623964348DC337.d.554BAC713A1358A56E6D2EAE0A7B5758.e.4/value'
+2024-05-21 16:42:19 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65315 : 1
+2024-05-21 16:42:20 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/70d2c9031b9cc0b36470e636642d2a3a/element/f.B1DDD2C08757471B64623964348DC337.d.554BAC713A1358A56E6D2EAE0A7B5758.e.4/value HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 228
+Content-Type: application/json; charset=utf-8
+host: localhost:14658
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2024-05-21 16:42:20 DEBUG ChannelManager:270 - Adding key: http://localhost:14658 for channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]
+2024-05-21 16:42:20 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]' for 'POST' to 'http://localhost:14658/session/70d2c9031b9cc0b36470e636642d2a3a/element'
+2024-05-21 16:42:20 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658] for POST '/session/70d2c9031b9cc0b36470e636642d2a3a/element'
+2024-05-21 16:42:20 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/70d2c9031b9cc0b36470e636642d2a3a/element HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 60
+Content-Type: application/json; charset=utf-8
+host: localhost:14658
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 125
+
+2024-05-21 16:42:20 DEBUG ChannelManager:270 - Adding key: http://localhost:14658 for channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]
+2024-05-21 16:42:20 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]' for 'POST' to 'http://localhost:14658/session/70d2c9031b9cc0b36470e636642d2a3a/element/f.B1DDD2C08757471B64623964348DC337.d.554BAC713A1358A56E6D2EAE0A7B5758.e.8/click'
+2024-05-21 16:42:20 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658] for POST '/session/70d2c9031b9cc0b36470e636642d2a3a/element/f.B1DDD2C08757471B64623964348DC337.d.554BAC713A1358A56E6D2EAE0A7B5758.e.8/click'
+2024-05-21 16:42:21 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65315 : 1
+2024-05-21 16:42:22 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65315 : 1
+2024-05-21 16:42:23 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65315 : 1
+2024-05-21 16:42:24 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65315 : 1
+2024-05-21 16:42:25 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65315 : 1
+2024-05-21 16:42:26 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65315 : 1
+2024-05-21 16:42:27 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65315 : 1
+2024-05-21 16:42:28 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65315 : 1
+2024-05-21 16:42:29 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65315 : 1
+2024-05-21 16:42:30 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65315 : 1
+2024-05-21 16:42:32 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65315 : 1
+2024-05-21 16:42:33 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65315 : 1
+2024-05-21 16:42:34 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65315 : 1
+2024-05-21 16:42:35 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65315 : 1
+2024-05-21 16:42:36 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/70d2c9031b9cc0b36470e636642d2a3a/element/f.B1DDD2C08757471B64623964348DC337.d.554BAC713A1358A56E6D2EAE0A7B5758.e.8/click HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 87
+Content-Type: application/json; charset=utf-8
+host: localhost:14658
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2024-05-21 16:42:36 DEBUG ChannelManager:270 - Adding key: http://localhost:14658 for channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]
+2024-05-21 16:42:36 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:14658 : 1
+2024-05-21 16:42:36 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65315 : 1
+2024-05-21 16:42:37 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:14658 : 1
+2024-05-21 16:42:37 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65315 : 1
+2024-05-21 16:42:38 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]' for 'POST' to 'http://localhost:14658/session/70d2c9031b9cc0b36470e636642d2a3a/element'
+2024-05-21 16:42:38 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658] for POST '/session/70d2c9031b9cc0b36470e636642d2a3a/element'
+2024-05-21 16:42:38 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/70d2c9031b9cc0b36470e636642d2a3a/element HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 80
+Content-Type: application/json; charset=utf-8
+host: localhost:14658
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 126
+
+2024-05-21 16:42:38 DEBUG ChannelManager:270 - Adding key: http://localhost:14658 for channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]
+2024-05-21 16:42:38 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]' for 'POST' to 'http://localhost:14658/session/70d2c9031b9cc0b36470e636642d2a3a/execute/sync'
+2024-05-21 16:42:38 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658] for POST '/session/70d2c9031b9cc0b36470e636642d2a3a/execute/sync'
+2024-05-21 16:42:38 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/70d2c9031b9cc0b36470e636642d2a3a/execute/sync HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 48818
+Content-Type: application/json; charset=utf-8
+host: localhost:14658
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2024-05-21 16:42:38 DEBUG ChannelManager:270 - Adding key: http://localhost:14658 for channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]
+2024-05-21 16:42:38 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]' for 'POST' to 'http://localhost:14658/session/70d2c9031b9cc0b36470e636642d2a3a/element'
+2024-05-21 16:42:38 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658] for POST '/session/70d2c9031b9cc0b36470e636642d2a3a/element'
+2024-05-21 16:42:38 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/70d2c9031b9cc0b36470e636642d2a3a/element HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 80
+Content-Type: application/json; charset=utf-8
+host: localhost:14658
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 126
+
+2024-05-21 16:42:38 DEBUG ChannelManager:270 - Adding key: http://localhost:14658 for channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]
+2024-05-21 16:42:38 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]' for 'GET' to 'http://localhost:14658/session/70d2c9031b9cc0b36470e636642d2a3a/element/f.B1DDD2C08757471B64623964348DC337.d.A723A9BC421D59B092000BEFF913D025.e.53/enabled'
+2024-05-21 16:42:38 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658] for GET '/session/70d2c9031b9cc0b36470e636642d2a3a/element/f.B1DDD2C08757471B64623964348DC337.d.A723A9BC421D59B092000BEFF913D025.e.53/enabled'
+2024-05-21 16:42:38 DEBUG HttpHandler:70 - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/70d2c9031b9cc0b36470e636642d2a3a/element/f.B1DDD2C08757471B64623964348DC337.d.A723A9BC421D59B092000BEFF913D025.e.53/enabled HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:14658
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2024-05-21 16:42:38 DEBUG ChannelManager:270 - Adding key: http://localhost:14658 for channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]
+2024-05-21 16:42:38 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]' for 'POST' to 'http://localhost:14658/session/70d2c9031b9cc0b36470e636642d2a3a/element'
+2024-05-21 16:42:38 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658] for POST '/session/70d2c9031b9cc0b36470e636642d2a3a/element'
+2024-05-21 16:42:38 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/70d2c9031b9cc0b36470e636642d2a3a/element HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 80
+Content-Type: application/json; charset=utf-8
+host: localhost:14658
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 126
+
+2024-05-21 16:42:38 DEBUG ChannelManager:270 - Adding key: http://localhost:14658 for channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]
+2024-05-21 16:42:38 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]' for 'POST' to 'http://localhost:14658/session/70d2c9031b9cc0b36470e636642d2a3a/element/f.B1DDD2C08757471B64623964348DC337.d.A723A9BC421D59B092000BEFF913D025.e.53/click'
+2024-05-21 16:42:38 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658] for POST '/session/70d2c9031b9cc0b36470e636642d2a3a/element/f.B1DDD2C08757471B64623964348DC337.d.A723A9BC421D59B092000BEFF913D025.e.53/click'
+2024-05-21 16:42:38 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65315 : 1
+2024-05-21 16:42:39 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65315 : 1
+2024-05-21 16:42:40 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65315 : 1
+2024-05-21 16:42:41 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65315 : 1
+2024-05-21 16:42:43 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65315 : 1
+2024-05-21 16:42:43 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/70d2c9031b9cc0b36470e636642d2a3a/element/f.B1DDD2C08757471B64623964348DC337.d.A723A9BC421D59B092000BEFF913D025.e.53/click HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 88
+Content-Type: application/json; charset=utf-8
+host: localhost:14658
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2024-05-21 16:42:43 DEBUG ChannelManager:270 - Adding key: http://localhost:14658 for channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]
+2024-05-21 16:42:44 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]' for 'POST' to 'http://localhost:14658/session/70d2c9031b9cc0b36470e636642d2a3a/element'
+2024-05-21 16:42:44 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658] for POST '/session/70d2c9031b9cc0b36470e636642d2a3a/element'
+2024-05-21 16:42:44 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/70d2c9031b9cc0b36470e636642d2a3a/element HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 66
+Content-Type: application/json; charset=utf-8
+host: localhost:14658
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 126
+
+2024-05-21 16:42:44 DEBUG ChannelManager:270 - Adding key: http://localhost:14658 for channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]
+2024-05-21 16:42:44 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]' for 'POST' to 'http://localhost:14658/session/70d2c9031b9cc0b36470e636642d2a3a/execute/sync'
+2024-05-21 16:42:44 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658] for POST '/session/70d2c9031b9cc0b36470e636642d2a3a/execute/sync'
+2024-05-21 16:42:44 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/70d2c9031b9cc0b36470e636642d2a3a/execute/sync HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 48818
+Content-Type: application/json; charset=utf-8
+host: localhost:14658
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2024-05-21 16:42:44 DEBUG ChannelManager:270 - Adding key: http://localhost:14658 for channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]
+2024-05-21 16:42:44 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]' for 'POST' to 'http://localhost:14658/session/70d2c9031b9cc0b36470e636642d2a3a/element'
+2024-05-21 16:42:44 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658] for POST '/session/70d2c9031b9cc0b36470e636642d2a3a/element'
+2024-05-21 16:42:44 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65315 : 1
+2024-05-21 16:42:44 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/70d2c9031b9cc0b36470e636642d2a3a/element HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 66
+Content-Type: application/json; charset=utf-8
+host: localhost:14658
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 126
+
+2024-05-21 16:42:44 DEBUG ChannelManager:270 - Adding key: http://localhost:14658 for channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]
+2024-05-21 16:42:44 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]' for 'GET' to 'http://localhost:14658/session/70d2c9031b9cc0b36470e636642d2a3a/element/f.B1DDD2C08757471B64623964348DC337.d.0FED07022E3F1D372204C921BC4CE6E9.e.56/enabled'
+2024-05-21 16:42:44 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658] for GET '/session/70d2c9031b9cc0b36470e636642d2a3a/element/f.B1DDD2C08757471B64623964348DC337.d.0FED07022E3F1D372204C921BC4CE6E9.e.56/enabled'
+2024-05-21 16:42:44 DEBUG HttpHandler:70 - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/70d2c9031b9cc0b36470e636642d2a3a/element/f.B1DDD2C08757471B64623964348DC337.d.0FED07022E3F1D372204C921BC4CE6E9.e.56/enabled HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:14658
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2024-05-21 16:42:44 DEBUG ChannelManager:270 - Adding key: http://localhost:14658 for channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]
+2024-05-21 16:42:44 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]' for 'POST' to 'http://localhost:14658/session/70d2c9031b9cc0b36470e636642d2a3a/element'
+2024-05-21 16:42:44 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658] for POST '/session/70d2c9031b9cc0b36470e636642d2a3a/element'
+2024-05-21 16:42:44 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/70d2c9031b9cc0b36470e636642d2a3a/element HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 66
+Content-Type: application/json; charset=utf-8
+host: localhost:14658
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 126
+
+2024-05-21 16:42:44 DEBUG ChannelManager:270 - Adding key: http://localhost:14658 for channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]
+2024-05-21 16:42:44 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]' for 'POST' to 'http://localhost:14658/session/70d2c9031b9cc0b36470e636642d2a3a/element/f.B1DDD2C08757471B64623964348DC337.d.0FED07022E3F1D372204C921BC4CE6E9.e.56/click'
+2024-05-21 16:42:44 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658] for POST '/session/70d2c9031b9cc0b36470e636642d2a3a/element/f.B1DDD2C08757471B64623964348DC337.d.0FED07022E3F1D372204C921BC4CE6E9.e.56/click'
+2024-05-21 16:42:45 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65315 : 1
+2024-05-21 16:42:46 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65315 : 1
+2024-05-21 16:42:47 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65315 : 1
+2024-05-21 16:42:48 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65315 : 1
+2024-05-21 16:42:49 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65315 : 1
+2024-05-21 16:42:49 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/70d2c9031b9cc0b36470e636642d2a3a/element/f.B1DDD2C08757471B64623964348DC337.d.0FED07022E3F1D372204C921BC4CE6E9.e.56/click HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 88
+Content-Type: application/json; charset=utf-8
+host: localhost:14658
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2024-05-21 16:42:49 DEBUG ChannelManager:270 - Adding key: http://localhost:14658 for channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]
+2024-05-21 16:42:49 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]' for 'POST' to 'http://localhost:14658/session/70d2c9031b9cc0b36470e636642d2a3a/element'
+2024-05-21 16:42:49 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658] for POST '/session/70d2c9031b9cc0b36470e636642d2a3a/element'
+2024-05-21 16:42:50 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/70d2c9031b9cc0b36470e636642d2a3a/element HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 56
+Content-Type: application/json; charset=utf-8
+host: localhost:14658
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 126
+
+2024-05-21 16:42:50 DEBUG ChannelManager:270 - Adding key: http://localhost:14658 for channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]
+2024-05-21 16:42:50 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]' for 'POST' to 'http://localhost:14658/session/70d2c9031b9cc0b36470e636642d2a3a/execute/sync'
+2024-05-21 16:42:50 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658] for POST '/session/70d2c9031b9cc0b36470e636642d2a3a/execute/sync'
+2024-05-21 16:42:50 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/70d2c9031b9cc0b36470e636642d2a3a/execute/sync HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 48818
+Content-Type: application/json; charset=utf-8
+host: localhost:14658
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2024-05-21 16:42:50 DEBUG ChannelManager:270 - Adding key: http://localhost:14658 for channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]
+2024-05-21 16:42:50 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]' for 'POST' to 'http://localhost:14658/session/70d2c9031b9cc0b36470e636642d2a3a/element'
+2024-05-21 16:42:50 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658] for POST '/session/70d2c9031b9cc0b36470e636642d2a3a/element'
+2024-05-21 16:42:50 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/70d2c9031b9cc0b36470e636642d2a3a/element HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 56
+Content-Type: application/json; charset=utf-8
+host: localhost:14658
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 126
+
+2024-05-21 16:42:50 DEBUG ChannelManager:270 - Adding key: http://localhost:14658 for channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]
+2024-05-21 16:42:50 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]' for 'GET' to 'http://localhost:14658/session/70d2c9031b9cc0b36470e636642d2a3a/element/f.B1DDD2C08757471B64623964348DC337.d.62EBE9563D28C84F9BE88DD41D972D7E.e.97/enabled'
+2024-05-21 16:42:50 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658] for GET '/session/70d2c9031b9cc0b36470e636642d2a3a/element/f.B1DDD2C08757471B64623964348DC337.d.62EBE9563D28C84F9BE88DD41D972D7E.e.97/enabled'
+2024-05-21 16:42:50 DEBUG HttpHandler:70 - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/70d2c9031b9cc0b36470e636642d2a3a/element/f.B1DDD2C08757471B64623964348DC337.d.62EBE9563D28C84F9BE88DD41D972D7E.e.97/enabled HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:14658
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2024-05-21 16:42:50 DEBUG ChannelManager:270 - Adding key: http://localhost:14658 for channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]
+2024-05-21 16:42:50 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]' for 'POST' to 'http://localhost:14658/session/70d2c9031b9cc0b36470e636642d2a3a/element'
+2024-05-21 16:42:50 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658] for POST '/session/70d2c9031b9cc0b36470e636642d2a3a/element'
+2024-05-21 16:42:50 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/70d2c9031b9cc0b36470e636642d2a3a/element HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 56
+Content-Type: application/json; charset=utf-8
+host: localhost:14658
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 126
+
+2024-05-21 16:42:50 DEBUG ChannelManager:270 - Adding key: http://localhost:14658 for channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]
+2024-05-21 16:42:50 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]' for 'POST' to 'http://localhost:14658/session/70d2c9031b9cc0b36470e636642d2a3a/element/f.B1DDD2C08757471B64623964348DC337.d.62EBE9563D28C84F9BE88DD41D972D7E.e.97/value'
+2024-05-21 16:42:50 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658] for POST '/session/70d2c9031b9cc0b36470e636642d2a3a/element/f.B1DDD2C08757471B64623964348DC337.d.62EBE9563D28C84F9BE88DD41D972D7E.e.97/value'
+2024-05-21 16:42:50 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/70d2c9031b9cc0b36470e636642d2a3a/element/f.B1DDD2C08757471B64623964348DC337.d.62EBE9563D28C84F9BE88DD41D972D7E.e.97/value HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 995
+Content-Type: application/json; charset=utf-8
+host: localhost:14658
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2024-05-21 16:42:50 DEBUG ChannelManager:270 - Adding key: http://localhost:14658 for channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]
+2024-05-21 16:42:50 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]' for 'POST' to 'http://localhost:14658/session/70d2c9031b9cc0b36470e636642d2a3a/element'
+2024-05-21 16:42:50 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658] for POST '/session/70d2c9031b9cc0b36470e636642d2a3a/element'
+2024-05-21 16:42:50 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/70d2c9031b9cc0b36470e636642d2a3a/element HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 60
+Content-Type: application/json; charset=utf-8
+host: localhost:14658
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 127
+
+2024-05-21 16:42:50 DEBUG ChannelManager:270 - Adding key: http://localhost:14658 for channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]
+2024-05-21 16:42:50 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]' for 'POST' to 'http://localhost:14658/session/70d2c9031b9cc0b36470e636642d2a3a/execute/sync'
+2024-05-21 16:42:50 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658] for POST '/session/70d2c9031b9cc0b36470e636642d2a3a/execute/sync'
+2024-05-21 16:42:50 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/70d2c9031b9cc0b36470e636642d2a3a/execute/sync HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 48819
+Content-Type: application/json; charset=utf-8
+host: localhost:14658
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2024-05-21 16:42:50 DEBUG ChannelManager:270 - Adding key: http://localhost:14658 for channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]
+2024-05-21 16:42:50 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]' for 'POST' to 'http://localhost:14658/session/70d2c9031b9cc0b36470e636642d2a3a/element'
+2024-05-21 16:42:50 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658] for POST '/session/70d2c9031b9cc0b36470e636642d2a3a/element'
+2024-05-21 16:42:50 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/70d2c9031b9cc0b36470e636642d2a3a/element HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 60
+Content-Type: application/json; charset=utf-8
+host: localhost:14658
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 127
+
+2024-05-21 16:42:50 DEBUG ChannelManager:270 - Adding key: http://localhost:14658 for channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]
+2024-05-21 16:42:50 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]' for 'GET' to 'http://localhost:14658/session/70d2c9031b9cc0b36470e636642d2a3a/element/f.B1DDD2C08757471B64623964348DC337.d.62EBE9563D28C84F9BE88DD41D972D7E.e.106/enabled'
+2024-05-21 16:42:50 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658] for GET '/session/70d2c9031b9cc0b36470e636642d2a3a/element/f.B1DDD2C08757471B64623964348DC337.d.62EBE9563D28C84F9BE88DD41D972D7E.e.106/enabled'
+2024-05-21 16:42:50 DEBUG HttpHandler:70 - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/70d2c9031b9cc0b36470e636642d2a3a/element/f.B1DDD2C08757471B64623964348DC337.d.62EBE9563D28C84F9BE88DD41D972D7E.e.106/enabled HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:14658
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2024-05-21 16:42:50 DEBUG ChannelManager:270 - Adding key: http://localhost:14658 for channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]
+2024-05-21 16:42:50 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]' for 'POST' to 'http://localhost:14658/session/70d2c9031b9cc0b36470e636642d2a3a/element'
+2024-05-21 16:42:50 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658] for POST '/session/70d2c9031b9cc0b36470e636642d2a3a/element'
+2024-05-21 16:42:50 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/70d2c9031b9cc0b36470e636642d2a3a/element HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 60
+Content-Type: application/json; charset=utf-8
+host: localhost:14658
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 127
+
+2024-05-21 16:42:50 DEBUG ChannelManager:270 - Adding key: http://localhost:14658 for channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]
+2024-05-21 16:42:50 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]' for 'POST' to 'http://localhost:14658/session/70d2c9031b9cc0b36470e636642d2a3a/element/f.B1DDD2C08757471B64623964348DC337.d.62EBE9563D28C84F9BE88DD41D972D7E.e.106/click'
+2024-05-21 16:42:50 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658] for POST '/session/70d2c9031b9cc0b36470e636642d2a3a/element/f.B1DDD2C08757471B64623964348DC337.d.62EBE9563D28C84F9BE88DD41D972D7E.e.106/click'
+2024-05-21 16:42:50 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65315 : 1
+2024-05-21 16:42:51 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65315 : 1
+2024-05-21 16:42:52 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65315 : 1
+2024-05-21 16:42:54 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65315 : 1
+2024-05-21 16:42:55 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65315 : 1
+2024-05-21 16:42:56 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65315 : 1
+2024-05-21 16:42:57 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65315 : 1
+2024-05-21 16:42:58 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65315 : 1
+2024-05-21 16:42:59 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65315 : 1
+2024-05-21 16:43:00 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65315 : 1
+2024-05-21 16:43:01 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65315 : 1
+2024-05-21 16:43:02 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65315 : 1
+2024-05-21 16:43:03 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65315 : 1
+2024-05-21 16:43:05 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65315 : 1
+2024-05-21 16:43:06 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65315 : 1
+2024-05-21 16:43:07 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65315 : 1
+2024-05-21 16:43:07 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/70d2c9031b9cc0b36470e636642d2a3a/element/f.B1DDD2C08757471B64623964348DC337.d.62EBE9563D28C84F9BE88DD41D972D7E.e.106/click HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 89
+Content-Type: application/json; charset=utf-8
+host: localhost:14658
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2024-05-21 16:43:07 DEBUG ChannelManager:270 - Adding key: http://localhost:14658 for channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]
+2024-05-21 16:43:07 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]' for 'POST' to 'http://localhost:14658/session/70d2c9031b9cc0b36470e636642d2a3a/element'
+2024-05-21 16:43:07 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658] for POST '/session/70d2c9031b9cc0b36470e636642d2a3a/element'
+2024-05-21 16:43:07 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/70d2c9031b9cc0b36470e636642d2a3a/element HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:14658
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 127
+
+2024-05-21 16:43:07 DEBUG ChannelManager:270 - Adding key: http://localhost:14658 for channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]
+2024-05-21 16:43:07 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]' for 'POST' to 'http://localhost:14658/session/70d2c9031b9cc0b36470e636642d2a3a/execute/sync'
+2024-05-21 16:43:07 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658] for POST '/session/70d2c9031b9cc0b36470e636642d2a3a/execute/sync'
+2024-05-21 16:43:07 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/70d2c9031b9cc0b36470e636642d2a3a/execute/sync HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 48819
+Content-Type: application/json; charset=utf-8
+host: localhost:14658
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2024-05-21 16:43:07 DEBUG ChannelManager:270 - Adding key: http://localhost:14658 for channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]
+2024-05-21 16:43:07 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]' for 'POST' to 'http://localhost:14658/session/70d2c9031b9cc0b36470e636642d2a3a/element'
+2024-05-21 16:43:07 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658] for POST '/session/70d2c9031b9cc0b36470e636642d2a3a/element'
+2024-05-21 16:43:07 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/70d2c9031b9cc0b36470e636642d2a3a/element HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:14658
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 127
+
+2024-05-21 16:43:07 DEBUG ChannelManager:270 - Adding key: http://localhost:14658 for channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]
+2024-05-21 16:43:07 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]' for 'GET' to 'http://localhost:14658/session/70d2c9031b9cc0b36470e636642d2a3a/element/f.B1DDD2C08757471B64623964348DC337.d.5B73932A14FDBCB51BDE9B02FAD6ADDC.e.144/text'
+2024-05-21 16:43:07 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658] for GET '/session/70d2c9031b9cc0b36470e636642d2a3a/element/f.B1DDD2C08757471B64623964348DC337.d.5B73932A14FDBCB51BDE9B02FAD6ADDC.e.144/text'
+2024-05-21 16:43:07 DEBUG HttpHandler:70 - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/70d2c9031b9cc0b36470e636642d2a3a/element/f.B1DDD2C08757471B64623964348DC337.d.5B73932A14FDBCB51BDE9B02FAD6ADDC.e.144/text HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:14658
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 50
+
+2024-05-21 16:43:07 DEBUG ChannelManager:270 - Adding key: http://localhost:14658 for channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]
+2024-05-21 16:43:08 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:14658 : 1
+2024-05-21 16:43:08 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65315 : 1
+2024-05-21 16:43:08 DEBUG DefaultChannelPool:302 - Adding Candidate expired Channel [id: 0x21c0e02d, L:/127.0.0.1:65322 - R:localhost/127.0.0.1:65315] isIdleTimeoutExpired=true isRemotelyClosed=false isTtlExpired=false
+2024-05-21 16:43:08 DEBUG DefaultChannelPool:321 - Closing Idle Channel [id: 0x21c0e02d, L:/127.0.0.1:65322 - R:localhost/127.0.0.1:65315]
+2024-05-21 16:43:08 DEBUG DefaultChannelPool:374 - Closed 1 connections out of 2 in 3 ms
+2024-05-21 16:43:08 DEBUG HttpHandler:126 - Channel Closed: [id: 0x21c0e02d, L:/127.0.0.1:65322 ! R:localhost/127.0.0.1:65315] with attribute DISCARD
+2024-05-21 16:43:09 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:14658 : 1
+2024-05-21 16:43:09 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]' for 'GET' to 'http://localhost:14658/session/70d2c9031b9cc0b36470e636642d2a3a/screenshot'
+2024-05-21 16:43:09 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658] for GET '/session/70d2c9031b9cc0b36470e636642d2a3a/screenshot'
+2024-05-21 16:43:09 DEBUG HttpHandler:70 - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/70d2c9031b9cc0b36470e636642d2a3a/screenshot HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:14658
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 110748
+
+2024-05-21 16:43:09 DEBUG ChannelManager:270 - Adding key: http://localhost:14658 for channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]
+2024-05-21 16:43:10 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]' for 'DELETE' to 'http://localhost:14658/session/70d2c9031b9cc0b36470e636642d2a3a'
+2024-05-21 16:43:10 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658] for DELETE '/session/70d2c9031b9cc0b36470e636642d2a3a'
+2024-05-21 16:43:10 DEBUG WebSocketHandler:126 - Channel Closed: [id: 0xc9c7ad40, L:/127.0.0.1:65323 ! R:localhost/127.0.0.1:65315] with attribute DISCARD
+2024-05-21 16:43:10 DEBUG HttpHandler:70 - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+DELETE /session/70d2c9031b9cc0b36470e636642d2a3a HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Type: application/json; charset=utf-8
+host: localhost:14658
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2024-05-21 16:43:10 DEBUG ChannelManager:270 - Adding key: http://localhost:14658 for channel [id: 0x350bb290, L:/127.0.0.1:65313 - R:localhost/127.0.0.1:14658]
+2024-05-21 16:43:11 DEBUG HttpHandler:126 - Channel Closed: [id: 0x350bb290, L:/127.0.0.1:65313 ! R:localhost/127.0.0.1:14658] with attribute DISCARD
+2024-05-21 16:43:11 DEBUG cache:45 - Couldn't find template in cache for "spark/spark.spa.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-21 16:43:11 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/spark.spa_fr_FR.ftl"): Not found
+2024-05-21 16:43:11 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/spark.spa_fr.ftl"): Not found
+2024-05-21 16:43:11 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/spark.spa.ftl"): Found
+2024-05-21 16:43:11 DEBUG cache:45 - Loading template for "spark/spark.spa.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/spark.spa.ftl"
+2024-05-21 16:43:11 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:14658 : 1
+2024-05-21 16:43:11 DEBUG DefaultChannelPool:302 - Adding Candidate expired Channel [id: 0x350bb290, L:/127.0.0.1:65313 ! R:localhost/127.0.0.1:14658] isIdleTimeoutExpired=false isRemotelyClosed=true isTtlExpired=false
+2024-05-21 16:43:11 DEBUG DefaultChannelPool:321 - Closing Idle Channel [id: 0x350bb290, L:/127.0.0.1:65313 ! R:localhost/127.0.0.1:14658]
+2024-05-21 16:43:11 DEBUG DefaultChannelPool:374 - Closed 1 connections out of 1 in 0 ms
+2024-05-21 16:43:11 DEBUG cache:45 - Couldn't find template in cache for "commons/commons-variables.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-21 16:43:11 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-variables_fr_FR.ftl"): Not found
+2024-05-21 16:43:11 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-variables_fr.ftl"): Not found
+2024-05-21 16:43:11 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-variables.ftl"): Found
+2024-05-21 16:43:11 DEBUG cache:45 - Loading template for "commons/commons-variables.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/commons/commons-variables.ftl"
+2024-05-21 16:43:12 DEBUG cache:45 - Couldn't find template in cache for "commons/commons-macros.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-21 16:43:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-macros_fr_FR.ftl"): Not found
+2024-05-21 16:43:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-macros_fr.ftl"): Not found
+2024-05-21 16:43:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-macros.ftl"): Found
+2024-05-21 16:43:12 DEBUG cache:45 - Loading template for "commons/commons-macros.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/commons/commons-macros.ftl"
+2024-05-21 16:43:12 DEBUG cache:45 - Couldn't find template in cache for "spark/macros/attributes.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-21 16:43:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/attributes_fr_FR.ftl"): Not found
+2024-05-21 16:43:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/attributes_fr.ftl"): Not found
+2024-05-21 16:43:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/attributes.ftl"): Found
+2024-05-21 16:43:12 DEBUG cache:45 - Loading template for "spark/macros/attributes.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/macros/attributes.ftl"
+2024-05-21 16:43:12 DEBUG cache:45 - Couldn't find template in cache for "spark/macros/log.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-21 16:43:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/log_fr_FR.ftl"): Not found
+2024-05-21 16:43:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/log_fr.ftl"): Not found
+2024-05-21 16:43:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/log.ftl"): Found
+2024-05-21 16:43:12 DEBUG cache:45 - Loading template for "spark/macros/log.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/macros/log.ftl"
+2024-05-21 16:43:12 DEBUG cache:45 - Couldn't find template in cache for "spark/macros/recurse_nodes.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-21 16:43:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_fr_FR.ftl"): Not found
+2024-05-21 16:43:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_fr.ftl"): Not found
+2024-05-21 16:43:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes.ftl"): Found
+2024-05-21 16:43:12 DEBUG cache:45 - Loading template for "spark/macros/recurse_nodes.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/macros/recurse_nodes.ftl"
+2024-05-21 16:43:12 DEBUG cache:45 - "spark/macros/log.ftl"("fr_FR", UTF-8, parsed) cached copy not yet stale; using cached.
+2024-05-21 16:43:12 DEBUG cache:45 - Couldn't find template in cache for "spark/macros/attr-common.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-21 16:43:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/attr-common_fr_FR.ftl"): Not found
+2024-05-21 16:43:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/attr-common_fr.ftl"): Not found
+2024-05-21 16:43:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/attr-common.ftl"): Found
+2024-05-21 16:43:12 DEBUG cache:45 - Loading template for "spark/macros/attr-common.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/macros/attr-common.ftl"
+2024-05-21 16:43:12 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/head.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-21 16:43:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/head_fr_FR.ftl"): Not found
+2024-05-21 16:43:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/head_fr.ftl"): Not found
+2024-05-21 16:43:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/head.ftl"): Found
+2024-05-21 16:43:12 DEBUG cache:45 - Loading template for "spark/partials/head.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/head.ftl"
+2024-05-21 16:43:12 DEBUG cache:45 - Couldn't find template in cache for "commons/commons-inject-css.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-21 16:43:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-css_fr_FR.ftl"): Not found
+2024-05-21 16:43:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-css_fr.ftl"): Not found
+2024-05-21 16:43:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-css.ftl"): Found
+2024-05-21 16:43:12 DEBUG cache:45 - Loading template for "commons/commons-inject-css.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/commons/commons-inject-css.ftl"
+2024-05-21 16:43:12 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/navbar.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-21 16:43:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/navbar_fr_FR.ftl"): Not found
+2024-05-21 16:43:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/navbar_fr.ftl"): Not found
+2024-05-21 16:43:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/navbar.ftl"): Found
+2024-05-21 16:43:12 DEBUG cache:45 - Loading template for "spark/partials/navbar.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/navbar.ftl"
+2024-05-21 16:43:12 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/sidenav.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-21 16:43:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/sidenav_fr_FR.ftl"): Not found
+2024-05-21 16:43:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/sidenav_fr.ftl"): Not found
+2024-05-21 16:43:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/sidenav.ftl"): Found
+2024-05-21 16:43:12 DEBUG cache:45 - Loading template for "spark/partials/sidenav.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/sidenav.ftl"
+2024-05-21 16:43:12 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/test.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-21 16:43:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/test_fr_FR.ftl"): Not found
+2024-05-21 16:43:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/test_fr.ftl"): Not found
+2024-05-21 16:43:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/test.ftl"): Found
+2024-05-21 16:43:12 DEBUG cache:45 - Loading template for "spark/partials/test.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/test.ftl"
+2024-05-21 16:43:12 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/standard-content.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-21 16:43:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/standard-content_fr_FR.ftl"): Not found
+2024-05-21 16:43:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/standard-content_fr.ftl"): Not found
+2024-05-21 16:43:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/standard-content.ftl"): Found
+2024-05-21 16:43:12 DEBUG cache:45 - Loading template for "spark/partials/standard-content.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/standard-content.ftl"
+2024-05-21 16:43:12 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/exception.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-21 16:43:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/exception_fr_FR.ftl"): Not found
+2024-05-21 16:43:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/exception_fr.ftl"): Not found
+2024-05-21 16:43:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/exception.ftl"): Found
+2024-05-21 16:43:12 DEBUG cache:45 - Loading template for "spark/partials/exception.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/exception.ftl"
+2024-05-21 16:43:12 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/category.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-21 16:43:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/category_fr_FR.ftl"): Not found
+2024-05-21 16:43:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/category_fr.ftl"): Not found
+2024-05-21 16:43:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/category.ftl"): Found
+2024-05-21 16:43:12 DEBUG cache:45 - Loading template for "spark/partials/category.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/category.ftl"
+2024-05-21 16:43:12 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/device.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-21 16:43:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/device_fr_FR.ftl"): Not found
+2024-05-21 16:43:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/device_fr.ftl"): Not found
+2024-05-21 16:43:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/device.ftl"): Found
+2024-05-21 16:43:12 DEBUG cache:45 - Loading template for "spark/partials/device.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/device.ftl"
+2024-05-21 16:43:12 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/author.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-21 16:43:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/author_fr_FR.ftl"): Not found
+2024-05-21 16:43:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/author_fr.ftl"): Not found
+2024-05-21 16:43:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/author.ftl"): Found
+2024-05-21 16:43:12 DEBUG cache:45 - Loading template for "spark/partials/author.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/author.ftl"
+2024-05-21 16:43:12 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/log.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-21 16:43:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/log_fr_FR.ftl"): Not found
+2024-05-21 16:43:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/log_fr.ftl"): Not found
+2024-05-21 16:43:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/log.ftl"): Found
+2024-05-21 16:43:12 DEBUG cache:45 - Loading template for "spark/partials/log.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/log.ftl"
+2024-05-21 16:43:12 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/dashboard.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-21 16:43:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/dashboard_fr_FR.ftl"): Not found
+2024-05-21 16:43:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/dashboard_fr.ftl"): Not found
+2024-05-21 16:43:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/dashboard.ftl"): Found
+2024-05-21 16:43:12 DEBUG cache:45 - Loading template for "spark/partials/dashboard.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/dashboard.ftl"
+2024-05-21 16:43:12 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/scripts.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-21 16:43:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/scripts_fr_FR.ftl"): Not found
+2024-05-21 16:43:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/scripts_fr.ftl"): Not found
+2024-05-21 16:43:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/scripts.ftl"): Found
+2024-05-21 16:43:12 DEBUG cache:45 - Loading template for "spark/partials/scripts.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/scripts.ftl"
+2024-05-21 16:43:12 DEBUG cache:45 - Couldn't find template in cache for "commons/commons-inject-js.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-21 16:43:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js_fr_FR.ftl"): Not found
+2024-05-21 16:43:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js_fr.ftl"): Not found
+2024-05-21 16:43:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
+2024-05-21 16:43:12 DEBUG cache:45 - Loading template for "commons/commons-inject-js.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl"
+2024-05-21 16:44:31 DEBUG InternalLoggerFactory:63 - Using SLF4J as the default logging framework
+2024-05-21 16:44:31 DEBUG ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+2024-05-21 16:44:31 DEBUG ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+2024-05-21 16:44:31 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1286528d
+2024-05-21 16:44:31 DEBUG PlatformDependent0:496 - -Dio.netty.noUnsafe: false
+2024-05-21 16:44:31 DEBUG PlatformDependent0:1000 - Java version: 11
+2024-05-21 16:44:31 DEBUG PlatformDependent0:137 - sun.misc.Unsafe.theUnsafe: available
+2024-05-21 16:44:31 DEBUG PlatformDependent0:161 - sun.misc.Unsafe.copyMemory: available
+2024-05-21 16:44:31 DEBUG PlatformDependent0:193 - sun.misc.Unsafe.storeFence: available
+2024-05-21 16:44:31 DEBUG PlatformDependent0:236 - java.nio.Buffer.address: available
+2024-05-21 16:44:31 DEBUG PlatformDependent0:320 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2024-05-21 16:44:31 DEBUG PlatformDependent0:385 - java.nio.Bits.unaligned: available, true
+2024-05-21 16:44:31 DEBUG PlatformDependent0:452 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @52102734
+2024-05-21 16:44:31 DEBUG PlatformDependent0:482 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2024-05-21 16:44:31 DEBUG PlatformDependent:1159 - sun.misc.Unsafe: available
+2024-05-21 16:44:31 DEBUG PlatformDependent:1270 - maxDirectMemory: 2097152000 bytes (maybe)
+2024-05-21 16:44:31 DEBUG PlatformDependent:1289 - -Dio.netty.tmpdir: C:\Users\zbarta\AppData\Local\Temp (java.io.tmpdir)
+2024-05-21 16:44:31 DEBUG PlatformDependent:1368 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2024-05-21 16:44:31 DEBUG PlatformDependent:1119 - Platform: Windows
+2024-05-21 16:44:31 DEBUG PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+2024-05-21 16:44:31 DEBUG PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2024-05-21 16:44:31 DEBUG CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+2024-05-21 16:44:31 DEBUG PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+2024-05-21 16:44:31 DEBUG PlatformDependent:1010 - org.jctools-core.MpscChunkedArrayQueue: available
+2024-05-21 16:44:31 DEBUG InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2024-05-21 16:44:31 DEBUG InternalThreadLocalMap:89 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2024-05-21 16:44:32 DEBUG JdkSslContext:83 - Default protocols (JDK): [TLSv1.3, TLSv1.2, TLSv1.1, TLSv1] 
+2024-05-21 16:44:32 DEBUG JdkSslContext:84 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2024-05-21 16:44:32 DEBUG MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 16
+2024-05-21 16:44:32 DEBUG NioEventLoop:110 - -Dio.netty.noKeySetOptimization: false
+2024-05-21 16:44:32 DEBUG NioEventLoop:111 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2024-05-21 16:44:32 DEBUG PooledByteBufAllocator:157 - -Dio.netty.allocator.numHeapArenas: 16
+2024-05-21 16:44:32 DEBUG PooledByteBufAllocator:158 - -Dio.netty.allocator.numDirectArenas: 16
+2024-05-21 16:44:32 DEBUG PooledByteBufAllocator:160 - -Dio.netty.allocator.pageSize: 8192
+2024-05-21 16:44:32 DEBUG PooledByteBufAllocator:165 - -Dio.netty.allocator.maxOrder: 9
+2024-05-21 16:44:32 DEBUG PooledByteBufAllocator:169 - -Dio.netty.allocator.chunkSize: 4194304
+2024-05-21 16:44:32 DEBUG PooledByteBufAllocator:170 - -Dio.netty.allocator.smallCacheSize: 256
+2024-05-21 16:44:32 DEBUG PooledByteBufAllocator:171 - -Dio.netty.allocator.normalCacheSize: 64
+2024-05-21 16:44:32 DEBUG PooledByteBufAllocator:172 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2024-05-21 16:44:32 DEBUG PooledByteBufAllocator:173 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2024-05-21 16:44:32 DEBUG PooledByteBufAllocator:174 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2024-05-21 16:44:32 DEBUG PooledByteBufAllocator:175 - -Dio.netty.allocator.useCacheForAllThreads: false
+2024-05-21 16:44:32 DEBUG PooledByteBufAllocator:176 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2024-05-21 16:44:32 DEBUG ByteBufUtil:87 - -Dio.netty.allocator.type: pooled
+2024-05-21 16:44:32 DEBUG ByteBufUtil:96 - -Dio.netty.threadLocalDirectBufferSize: 0
+2024-05-21 16:44:32 DEBUG ByteBufUtil:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2024-05-21 16:44:33 DEBUG DefaultChannelId:79 - -Dio.netty.processId: 5280 (auto-detected)
+2024-05-21 16:44:33 DEBUG NetUtil:136 - -Djava.net.preferIPv4Stack: false
+2024-05-21 16:44:33 DEBUG NetUtil:137 - -Djava.net.preferIPv6Addresses: false
+2024-05-21 16:44:34 DEBUG NetUtilInitializations:129 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2024-05-21 16:44:34 DEBUG NetUtil:191 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2024-05-21 16:44:35 DEBUG DefaultChannelId:101 - -Dio.netty.machineId: 94:e6:f7:ff:fe:ba:e7:6c (auto-detected)
+2024-05-21 16:44:35 DEBUG AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+2024-05-21 16:44:35 DEBUG AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+2024-05-21 16:44:35 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1ccbf091
+2024-05-21 16:44:35 DEBUG NettyConnectListener:73 - Using new Channel '[id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]' for 'POST' to '/session'
+2024-05-21 16:44:35 DEBUG Recycler:85 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2024-05-21 16:44:35 DEBUG Recycler:86 - -Dio.netty.recycler.ratio: 8
+2024-05-21 16:44:35 DEBUG Recycler:87 - -Dio.netty.recycler.chunkSize: 32
+2024-05-21 16:44:35 DEBUG Recycler:88 - -Dio.netty.recycler.blocking: false
+2024-05-21 16:44:39 DEBUG Brotli:38 - brotli4j not in the classpath; Brotli support will be unavailable.
+2024-05-21 16:44:39 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 623
+Content-Type: application/json; charset=utf-8
+host: localhost:45492
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 866
+
+2024-05-21 16:44:39 DEBUG ChannelManager:270 - Adding key: http://localhost:45492 for channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]
+2024-05-21 16:44:39 DEBUG NettyConnectListener:73 - Using new Channel '[id: 0xf271c300, L:/127.0.0.1:65522 - R:localhost/127.0.0.1:65515]' for 'GET' to '/json/version'
+2024-05-21 16:44:39 DEBUG HttpHandler:70 - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /json/version HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+host: localhost:65515
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Security-Policy: frame-ancestors 'none'
+Content-Type: application/json; charset=UTF-8
+content-length: 422
+
+2024-05-21 16:44:39 DEBUG ChannelManager:270 - Adding key: http://localhost:65515 for channel [id: 0xf271c300, L:/127.0.0.1:65522 - R:localhost/127.0.0.1:65515]
+2024-05-21 16:44:39 DEBUG ThreadLocalRandom:214 - -Dio.netty.initialSeedUniquifier: 0x7b5e1054c5d8c185
+2024-05-21 16:44:39 DEBUG NettyConnectListener:73 - Using new Channel '[id: 0xe789c508, L:/127.0.0.1:65523 - R:localhost/127.0.0.1:65515]' for 'GET' to '/devtools/browser/8ad479bb-c68c-441b-99dc-5b601b8330d6'
+2024-05-21 16:44:39 DEBUG WebSocketHandler:105 - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /devtools/browser/8ad479bb-c68c-441b-99dc-5b601b8330d6 HTTP/1.1
+upgrade: websocket
+connection: upgrade
+sec-websocket-key: +AuJKq0b3rRv8r1F5rJRxA==
+sec-websocket-version: 13
+origin: http://localhost:65515
+host: localhost:65515
+accept: */*
+user-agent: AHC/2.1
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 101 WebSocket Protocol Handshake
+Upgrade: WebSocket
+Connection: Upgrade
+Sec-WebSocket-Accept: vL/oUTOX3YCW3mmTB+usTdV5y1M=
+
+2024-05-21 16:44:39 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65515 : 1
+2024-05-21 16:44:39 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:45492 : 1
+2024-05-21 16:44:39 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]' for 'POST' to 'http://localhost:45492/session/198c5a48a182f9cb1edd4efd857eb647/url'
+2024-05-21 16:44:39 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492] for POST '/session/198c5a48a182f9cb1edd4efd857eb647/url'
+2024-05-21 16:44:40 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65515 : 1
+2024-05-21 16:44:41 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/198c5a48a182f9cb1edd4efd857eb647/url HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 75
+Content-Type: application/json; charset=utf-8
+host: localhost:45492
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2024-05-21 16:44:41 DEBUG ChannelManager:270 - Adding key: http://localhost:45492 for channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]
+2024-05-21 16:44:41 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]' for 'POST' to 'http://localhost:45492/session/198c5a48a182f9cb1edd4efd857eb647/element'
+2024-05-21 16:44:41 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492] for POST '/session/198c5a48a182f9cb1edd4efd857eb647/element'
+2024-05-21 16:44:41 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65515 : 1
+2024-05-21 16:44:43 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65515 : 1
+2024-05-21 16:44:44 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65515 : 1
+2024-05-21 16:44:45 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65515 : 1
+2024-05-21 16:44:46 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65515 : 1
+2024-05-21 16:44:47 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65515 : 1
+2024-05-21 16:44:48 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65515 : 1
+2024-05-21 16:44:49 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65515 : 1
+2024-05-21 16:44:50 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65515 : 1
+2024-05-21 16:44:51 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65515 : 1
+2024-05-21 16:44:52 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65515 : 1
+2024-05-21 16:44:53 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/198c5a48a182f9cb1edd4efd857eb647/element HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 55
+Content-Type: application/json; charset=utf-8
+host: localhost:45492
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 125
+
+2024-05-21 16:44:53 DEBUG ChannelManager:270 - Adding key: http://localhost:45492 for channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]
+2024-05-21 16:44:53 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]' for 'POST' to 'http://localhost:45492/session/198c5a48a182f9cb1edd4efd857eb647/element/f.8B4950DDEBFA14B564F7B28018E0C335.d.3E88EC3F4D7392E94150B4E153D9588A.e.2/value'
+2024-05-21 16:44:53 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492] for POST '/session/198c5a48a182f9cb1edd4efd857eb647/element/f.8B4950DDEBFA14B564F7B28018E0C335.d.3E88EC3F4D7392E94150B4E153D9588A.e.2/value'
+2024-05-21 16:44:53 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/198c5a48a182f9cb1edd4efd857eb647/element/f.8B4950DDEBFA14B564F7B28018E0C335.d.3E88EC3F4D7392E94150B4E153D9588A.e.2/value HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 338
+Content-Type: application/json; charset=utf-8
+host: localhost:45492
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2024-05-21 16:44:53 DEBUG ChannelManager:270 - Adding key: http://localhost:45492 for channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]
+2024-05-21 16:44:53 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]' for 'POST' to 'http://localhost:45492/session/198c5a48a182f9cb1edd4efd857eb647/element'
+2024-05-21 16:44:53 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492] for POST '/session/198c5a48a182f9cb1edd4efd857eb647/element'
+2024-05-21 16:44:53 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/198c5a48a182f9cb1edd4efd857eb647/element HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 58
+Content-Type: application/json; charset=utf-8
+host: localhost:45492
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 125
+
+2024-05-21 16:44:53 DEBUG ChannelManager:270 - Adding key: http://localhost:45492 for channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]
+2024-05-21 16:44:53 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]' for 'POST' to 'http://localhost:45492/session/198c5a48a182f9cb1edd4efd857eb647/element/f.8B4950DDEBFA14B564F7B28018E0C335.d.3E88EC3F4D7392E94150B4E153D9588A.e.4/value'
+2024-05-21 16:44:53 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492] for POST '/session/198c5a48a182f9cb1edd4efd857eb647/element/f.8B4950DDEBFA14B564F7B28018E0C335.d.3E88EC3F4D7392E94150B4E153D9588A.e.4/value'
+2024-05-21 16:44:53 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/198c5a48a182f9cb1edd4efd857eb647/element/f.8B4950DDEBFA14B564F7B28018E0C335.d.3E88EC3F4D7392E94150B4E153D9588A.e.4/value HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 228
+Content-Type: application/json; charset=utf-8
+host: localhost:45492
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2024-05-21 16:44:53 DEBUG ChannelManager:270 - Adding key: http://localhost:45492 for channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]
+2024-05-21 16:44:53 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]' for 'POST' to 'http://localhost:45492/session/198c5a48a182f9cb1edd4efd857eb647/element'
+2024-05-21 16:44:53 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492] for POST '/session/198c5a48a182f9cb1edd4efd857eb647/element'
+2024-05-21 16:44:53 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/198c5a48a182f9cb1edd4efd857eb647/element HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 60
+Content-Type: application/json; charset=utf-8
+host: localhost:45492
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 125
+
+2024-05-21 16:44:53 DEBUG ChannelManager:270 - Adding key: http://localhost:45492 for channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]
+2024-05-21 16:44:53 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]' for 'POST' to 'http://localhost:45492/session/198c5a48a182f9cb1edd4efd857eb647/element/f.8B4950DDEBFA14B564F7B28018E0C335.d.3E88EC3F4D7392E94150B4E153D9588A.e.8/click'
+2024-05-21 16:44:53 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492] for POST '/session/198c5a48a182f9cb1edd4efd857eb647/element/f.8B4950DDEBFA14B564F7B28018E0C335.d.3E88EC3F4D7392E94150B4E153D9588A.e.8/click'
+2024-05-21 16:44:54 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65515 : 1
+2024-05-21 16:44:55 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65515 : 1
+2024-05-21 16:44:56 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65515 : 1
+2024-05-21 16:44:57 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65515 : 1
+2024-05-21 16:44:58 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65515 : 1
+2024-05-21 16:44:59 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65515 : 1
+2024-05-21 16:45:00 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65515 : 1
+2024-05-21 16:45:01 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65515 : 1
+2024-05-21 16:45:02 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65515 : 1
+2024-05-21 16:45:03 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65515 : 1
+2024-05-21 16:45:05 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65515 : 1
+2024-05-21 16:45:06 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65515 : 1
+2024-05-21 16:45:06 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/198c5a48a182f9cb1edd4efd857eb647/element/f.8B4950DDEBFA14B564F7B28018E0C335.d.3E88EC3F4D7392E94150B4E153D9588A.e.8/click HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 87
+Content-Type: application/json; charset=utf-8
+host: localhost:45492
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2024-05-21 16:45:06 DEBUG ChannelManager:270 - Adding key: http://localhost:45492 for channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]
+2024-05-21 16:45:07 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65515 : 1
+2024-05-21 16:45:07 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:45492 : 1
+2024-05-21 16:45:08 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65515 : 1
+2024-05-21 16:45:08 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:45492 : 1
+2024-05-21 16:45:08 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]' for 'POST' to 'http://localhost:45492/session/198c5a48a182f9cb1edd4efd857eb647/element'
+2024-05-21 16:45:08 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492] for POST '/session/198c5a48a182f9cb1edd4efd857eb647/element'
+2024-05-21 16:45:08 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/198c5a48a182f9cb1edd4efd857eb647/element HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 80
+Content-Type: application/json; charset=utf-8
+host: localhost:45492
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 126
+
+2024-05-21 16:45:08 DEBUG ChannelManager:270 - Adding key: http://localhost:45492 for channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]
+2024-05-21 16:45:08 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]' for 'POST' to 'http://localhost:45492/session/198c5a48a182f9cb1edd4efd857eb647/execute/sync'
+2024-05-21 16:45:08 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492] for POST '/session/198c5a48a182f9cb1edd4efd857eb647/execute/sync'
+2024-05-21 16:45:08 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/198c5a48a182f9cb1edd4efd857eb647/execute/sync HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 48818
+Content-Type: application/json; charset=utf-8
+host: localhost:45492
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2024-05-21 16:45:08 DEBUG ChannelManager:270 - Adding key: http://localhost:45492 for channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]
+2024-05-21 16:45:08 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]' for 'POST' to 'http://localhost:45492/session/198c5a48a182f9cb1edd4efd857eb647/element'
+2024-05-21 16:45:08 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492] for POST '/session/198c5a48a182f9cb1edd4efd857eb647/element'
+2024-05-21 16:45:08 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/198c5a48a182f9cb1edd4efd857eb647/element HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 80
+Content-Type: application/json; charset=utf-8
+host: localhost:45492
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 126
+
+2024-05-21 16:45:08 DEBUG ChannelManager:270 - Adding key: http://localhost:45492 for channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]
+2024-05-21 16:45:08 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]' for 'GET' to 'http://localhost:45492/session/198c5a48a182f9cb1edd4efd857eb647/element/f.8B4950DDEBFA14B564F7B28018E0C335.d.235EBD5EEFEE29E8BAF89D13DB595964.e.53/enabled'
+2024-05-21 16:45:08 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492] for GET '/session/198c5a48a182f9cb1edd4efd857eb647/element/f.8B4950DDEBFA14B564F7B28018E0C335.d.235EBD5EEFEE29E8BAF89D13DB595964.e.53/enabled'
+2024-05-21 16:45:08 DEBUG HttpHandler:70 - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/198c5a48a182f9cb1edd4efd857eb647/element/f.8B4950DDEBFA14B564F7B28018E0C335.d.235EBD5EEFEE29E8BAF89D13DB595964.e.53/enabled HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:45492
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2024-05-21 16:45:08 DEBUG ChannelManager:270 - Adding key: http://localhost:45492 for channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]
+2024-05-21 16:45:08 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]' for 'POST' to 'http://localhost:45492/session/198c5a48a182f9cb1edd4efd857eb647/element'
+2024-05-21 16:45:08 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492] for POST '/session/198c5a48a182f9cb1edd4efd857eb647/element'
+2024-05-21 16:45:08 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/198c5a48a182f9cb1edd4efd857eb647/element HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 80
+Content-Type: application/json; charset=utf-8
+host: localhost:45492
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 126
+
+2024-05-21 16:45:08 DEBUG ChannelManager:270 - Adding key: http://localhost:45492 for channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]
+2024-05-21 16:45:08 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]' for 'POST' to 'http://localhost:45492/session/198c5a48a182f9cb1edd4efd857eb647/element/f.8B4950DDEBFA14B564F7B28018E0C335.d.235EBD5EEFEE29E8BAF89D13DB595964.e.53/click'
+2024-05-21 16:45:08 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492] for POST '/session/198c5a48a182f9cb1edd4efd857eb647/element/f.8B4950DDEBFA14B564F7B28018E0C335.d.235EBD5EEFEE29E8BAF89D13DB595964.e.53/click'
+2024-05-21 16:45:09 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65515 : 1
+2024-05-21 16:45:10 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65515 : 1
+2024-05-21 16:45:11 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65515 : 1
+2024-05-21 16:45:12 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65515 : 1
+2024-05-21 16:45:13 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65515 : 1
+2024-05-21 16:45:14 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/198c5a48a182f9cb1edd4efd857eb647/element/f.8B4950DDEBFA14B564F7B28018E0C335.d.235EBD5EEFEE29E8BAF89D13DB595964.e.53/click HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 88
+Content-Type: application/json; charset=utf-8
+host: localhost:45492
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2024-05-21 16:45:14 DEBUG ChannelManager:270 - Adding key: http://localhost:45492 for channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]
+2024-05-21 16:45:14 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]' for 'POST' to 'http://localhost:45492/session/198c5a48a182f9cb1edd4efd857eb647/element'
+2024-05-21 16:45:14 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492] for POST '/session/198c5a48a182f9cb1edd4efd857eb647/element'
+2024-05-21 16:45:14 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/198c5a48a182f9cb1edd4efd857eb647/element HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 66
+Content-Type: application/json; charset=utf-8
+host: localhost:45492
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 126
+
+2024-05-21 16:45:14 DEBUG ChannelManager:270 - Adding key: http://localhost:45492 for channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]
+2024-05-21 16:45:14 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]' for 'POST' to 'http://localhost:45492/session/198c5a48a182f9cb1edd4efd857eb647/execute/sync'
+2024-05-21 16:45:14 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492] for POST '/session/198c5a48a182f9cb1edd4efd857eb647/execute/sync'
+2024-05-21 16:45:14 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/198c5a48a182f9cb1edd4efd857eb647/execute/sync HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 48818
+Content-Type: application/json; charset=utf-8
+host: localhost:45492
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2024-05-21 16:45:14 DEBUG ChannelManager:270 - Adding key: http://localhost:45492 for channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]
+2024-05-21 16:45:14 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]' for 'POST' to 'http://localhost:45492/session/198c5a48a182f9cb1edd4efd857eb647/element'
+2024-05-21 16:45:14 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492] for POST '/session/198c5a48a182f9cb1edd4efd857eb647/element'
+2024-05-21 16:45:14 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/198c5a48a182f9cb1edd4efd857eb647/element HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 66
+Content-Type: application/json; charset=utf-8
+host: localhost:45492
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 126
+
+2024-05-21 16:45:14 DEBUG ChannelManager:270 - Adding key: http://localhost:45492 for channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]
+2024-05-21 16:45:14 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]' for 'GET' to 'http://localhost:45492/session/198c5a48a182f9cb1edd4efd857eb647/element/f.8B4950DDEBFA14B564F7B28018E0C335.d.B1F7D254D9276BDD3B20AA1A58C7AA0E.e.56/enabled'
+2024-05-21 16:45:14 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492] for GET '/session/198c5a48a182f9cb1edd4efd857eb647/element/f.8B4950DDEBFA14B564F7B28018E0C335.d.B1F7D254D9276BDD3B20AA1A58C7AA0E.e.56/enabled'
+2024-05-21 16:45:14 DEBUG HttpHandler:70 - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/198c5a48a182f9cb1edd4efd857eb647/element/f.8B4950DDEBFA14B564F7B28018E0C335.d.B1F7D254D9276BDD3B20AA1A58C7AA0E.e.56/enabled HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:45492
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2024-05-21 16:45:14 DEBUG ChannelManager:270 - Adding key: http://localhost:45492 for channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]
+2024-05-21 16:45:14 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]' for 'POST' to 'http://localhost:45492/session/198c5a48a182f9cb1edd4efd857eb647/element'
+2024-05-21 16:45:14 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492] for POST '/session/198c5a48a182f9cb1edd4efd857eb647/element'
+2024-05-21 16:45:14 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/198c5a48a182f9cb1edd4efd857eb647/element HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 66
+Content-Type: application/json; charset=utf-8
+host: localhost:45492
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 126
+
+2024-05-21 16:45:14 DEBUG ChannelManager:270 - Adding key: http://localhost:45492 for channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]
+2024-05-21 16:45:14 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]' for 'POST' to 'http://localhost:45492/session/198c5a48a182f9cb1edd4efd857eb647/element/f.8B4950DDEBFA14B564F7B28018E0C335.d.B1F7D254D9276BDD3B20AA1A58C7AA0E.e.56/click'
+2024-05-21 16:45:14 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492] for POST '/session/198c5a48a182f9cb1edd4efd857eb647/element/f.8B4950DDEBFA14B564F7B28018E0C335.d.B1F7D254D9276BDD3B20AA1A58C7AA0E.e.56/click'
+2024-05-21 16:45:14 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65515 : 1
+2024-05-21 16:45:16 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65515 : 1
+2024-05-21 16:45:17 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65515 : 1
+2024-05-21 16:45:18 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65515 : 1
+2024-05-21 16:45:19 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65515 : 1
+2024-05-21 16:45:20 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/198c5a48a182f9cb1edd4efd857eb647/element/f.8B4950DDEBFA14B564F7B28018E0C335.d.B1F7D254D9276BDD3B20AA1A58C7AA0E.e.56/click HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 88
+Content-Type: application/json; charset=utf-8
+host: localhost:45492
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2024-05-21 16:45:20 DEBUG ChannelManager:270 - Adding key: http://localhost:45492 for channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]
+2024-05-21 16:45:20 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]' for 'POST' to 'http://localhost:45492/session/198c5a48a182f9cb1edd4efd857eb647/element'
+2024-05-21 16:45:20 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492] for POST '/session/198c5a48a182f9cb1edd4efd857eb647/element'
+2024-05-21 16:45:20 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/198c5a48a182f9cb1edd4efd857eb647/element HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 56
+Content-Type: application/json; charset=utf-8
+host: localhost:45492
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 126
+
+2024-05-21 16:45:20 DEBUG ChannelManager:270 - Adding key: http://localhost:45492 for channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]
+2024-05-21 16:45:20 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]' for 'POST' to 'http://localhost:45492/session/198c5a48a182f9cb1edd4efd857eb647/execute/sync'
+2024-05-21 16:45:20 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492] for POST '/session/198c5a48a182f9cb1edd4efd857eb647/execute/sync'
+2024-05-21 16:45:20 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/198c5a48a182f9cb1edd4efd857eb647/execute/sync HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 48818
+Content-Type: application/json; charset=utf-8
+host: localhost:45492
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2024-05-21 16:45:20 DEBUG ChannelManager:270 - Adding key: http://localhost:45492 for channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]
+2024-05-21 16:45:20 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]' for 'POST' to 'http://localhost:45492/session/198c5a48a182f9cb1edd4efd857eb647/element'
+2024-05-21 16:45:20 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492] for POST '/session/198c5a48a182f9cb1edd4efd857eb647/element'
+2024-05-21 16:45:20 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/198c5a48a182f9cb1edd4efd857eb647/element HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 56
+Content-Type: application/json; charset=utf-8
+host: localhost:45492
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 126
+
+2024-05-21 16:45:20 DEBUG ChannelManager:270 - Adding key: http://localhost:45492 for channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]
+2024-05-21 16:45:20 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]' for 'GET' to 'http://localhost:45492/session/198c5a48a182f9cb1edd4efd857eb647/element/f.8B4950DDEBFA14B564F7B28018E0C335.d.A16DE133A8F5EA08D6CBEA4D636BDC9A.e.98/enabled'
+2024-05-21 16:45:20 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492] for GET '/session/198c5a48a182f9cb1edd4efd857eb647/element/f.8B4950DDEBFA14B564F7B28018E0C335.d.A16DE133A8F5EA08D6CBEA4D636BDC9A.e.98/enabled'
+2024-05-21 16:45:20 DEBUG HttpHandler:70 - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/198c5a48a182f9cb1edd4efd857eb647/element/f.8B4950DDEBFA14B564F7B28018E0C335.d.A16DE133A8F5EA08D6CBEA4D636BDC9A.e.98/enabled HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:45492
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2024-05-21 16:45:20 DEBUG ChannelManager:270 - Adding key: http://localhost:45492 for channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]
+2024-05-21 16:45:20 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]' for 'POST' to 'http://localhost:45492/session/198c5a48a182f9cb1edd4efd857eb647/element'
+2024-05-21 16:45:20 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492] for POST '/session/198c5a48a182f9cb1edd4efd857eb647/element'
+2024-05-21 16:45:20 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/198c5a48a182f9cb1edd4efd857eb647/element HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 56
+Content-Type: application/json; charset=utf-8
+host: localhost:45492
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 126
+
+2024-05-21 16:45:20 DEBUG ChannelManager:270 - Adding key: http://localhost:45492 for channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]
+2024-05-21 16:45:20 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]' for 'POST' to 'http://localhost:45492/session/198c5a48a182f9cb1edd4efd857eb647/element/f.8B4950DDEBFA14B564F7B28018E0C335.d.A16DE133A8F5EA08D6CBEA4D636BDC9A.e.98/value'
+2024-05-21 16:45:20 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492] for POST '/session/198c5a48a182f9cb1edd4efd857eb647/element/f.8B4950DDEBFA14B564F7B28018E0C335.d.A16DE133A8F5EA08D6CBEA4D636BDC9A.e.98/value'
+2024-05-21 16:45:20 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/198c5a48a182f9cb1edd4efd857eb647/element/f.8B4950DDEBFA14B564F7B28018E0C335.d.A16DE133A8F5EA08D6CBEA4D636BDC9A.e.98/value HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 1075
+Content-Type: application/json; charset=utf-8
+host: localhost:45492
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2024-05-21 16:45:20 DEBUG ChannelManager:270 - Adding key: http://localhost:45492 for channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]
+2024-05-21 16:45:20 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]' for 'POST' to 'http://localhost:45492/session/198c5a48a182f9cb1edd4efd857eb647/element'
+2024-05-21 16:45:20 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492] for POST '/session/198c5a48a182f9cb1edd4efd857eb647/element'
+2024-05-21 16:45:20 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/198c5a48a182f9cb1edd4efd857eb647/element HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 60
+Content-Type: application/json; charset=utf-8
+host: localhost:45492
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 127
+
+2024-05-21 16:45:20 DEBUG ChannelManager:270 - Adding key: http://localhost:45492 for channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]
+2024-05-21 16:45:20 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65515 : 1
+2024-05-21 16:45:20 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]' for 'POST' to 'http://localhost:45492/session/198c5a48a182f9cb1edd4efd857eb647/execute/sync'
+2024-05-21 16:45:20 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492] for POST '/session/198c5a48a182f9cb1edd4efd857eb647/execute/sync'
+2024-05-21 16:45:20 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/198c5a48a182f9cb1edd4efd857eb647/execute/sync HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 48819
+Content-Type: application/json; charset=utf-8
+host: localhost:45492
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2024-05-21 16:45:20 DEBUG ChannelManager:270 - Adding key: http://localhost:45492 for channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]
+2024-05-21 16:45:20 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]' for 'POST' to 'http://localhost:45492/session/198c5a48a182f9cb1edd4efd857eb647/element'
+2024-05-21 16:45:20 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492] for POST '/session/198c5a48a182f9cb1edd4efd857eb647/element'
+2024-05-21 16:45:20 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/198c5a48a182f9cb1edd4efd857eb647/element HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 60
+Content-Type: application/json; charset=utf-8
+host: localhost:45492
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 127
+
+2024-05-21 16:45:20 DEBUG ChannelManager:270 - Adding key: http://localhost:45492 for channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]
+2024-05-21 16:45:20 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]' for 'GET' to 'http://localhost:45492/session/198c5a48a182f9cb1edd4efd857eb647/element/f.8B4950DDEBFA14B564F7B28018E0C335.d.A16DE133A8F5EA08D6CBEA4D636BDC9A.e.121/enabled'
+2024-05-21 16:45:20 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492] for GET '/session/198c5a48a182f9cb1edd4efd857eb647/element/f.8B4950DDEBFA14B564F7B28018E0C335.d.A16DE133A8F5EA08D6CBEA4D636BDC9A.e.121/enabled'
+2024-05-21 16:45:20 DEBUG HttpHandler:70 - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/198c5a48a182f9cb1edd4efd857eb647/element/f.8B4950DDEBFA14B564F7B28018E0C335.d.A16DE133A8F5EA08D6CBEA4D636BDC9A.e.121/enabled HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:45492
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2024-05-21 16:45:20 DEBUG ChannelManager:270 - Adding key: http://localhost:45492 for channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]
+2024-05-21 16:45:20 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]' for 'POST' to 'http://localhost:45492/session/198c5a48a182f9cb1edd4efd857eb647/element'
+2024-05-21 16:45:20 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492] for POST '/session/198c5a48a182f9cb1edd4efd857eb647/element'
+2024-05-21 16:45:20 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/198c5a48a182f9cb1edd4efd857eb647/element HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 60
+Content-Type: application/json; charset=utf-8
+host: localhost:45492
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 127
+
+2024-05-21 16:45:20 DEBUG ChannelManager:270 - Adding key: http://localhost:45492 for channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]
+2024-05-21 16:45:20 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]' for 'POST' to 'http://localhost:45492/session/198c5a48a182f9cb1edd4efd857eb647/element/f.8B4950DDEBFA14B564F7B28018E0C335.d.A16DE133A8F5EA08D6CBEA4D636BDC9A.e.121/click'
+2024-05-21 16:45:20 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492] for POST '/session/198c5a48a182f9cb1edd4efd857eb647/element/f.8B4950DDEBFA14B564F7B28018E0C335.d.A16DE133A8F5EA08D6CBEA4D636BDC9A.e.121/click'
+2024-05-21 16:45:21 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65515 : 1
+2024-05-21 16:45:22 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65515 : 1
+2024-05-21 16:45:23 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65515 : 1
+2024-05-21 16:45:24 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65515 : 1
+2024-05-21 16:45:25 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65515 : 1
+2024-05-21 16:45:27 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65515 : 1
+2024-05-21 16:45:28 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65515 : 1
+2024-05-21 16:45:29 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65515 : 1
+2024-05-21 16:45:30 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65515 : 1
+2024-05-21 16:45:31 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65515 : 1
+2024-05-21 16:45:32 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65515 : 1
+2024-05-21 16:45:33 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65515 : 1
+2024-05-21 16:45:34 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/198c5a48a182f9cb1edd4efd857eb647/element/f.8B4950DDEBFA14B564F7B28018E0C335.d.A16DE133A8F5EA08D6CBEA4D636BDC9A.e.121/click HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 89
+Content-Type: application/json; charset=utf-8
+host: localhost:45492
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2024-05-21 16:45:34 DEBUG ChannelManager:270 - Adding key: http://localhost:45492 for channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]
+2024-05-21 16:45:34 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]' for 'POST' to 'http://localhost:45492/session/198c5a48a182f9cb1edd4efd857eb647/element'
+2024-05-21 16:45:34 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492] for POST '/session/198c5a48a182f9cb1edd4efd857eb647/element'
+2024-05-21 16:45:34 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/198c5a48a182f9cb1edd4efd857eb647/element HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:45492
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 127
+
+2024-05-21 16:45:34 DEBUG ChannelManager:270 - Adding key: http://localhost:45492 for channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]
+2024-05-21 16:45:34 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]' for 'POST' to 'http://localhost:45492/session/198c5a48a182f9cb1edd4efd857eb647/execute/sync'
+2024-05-21 16:45:34 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492] for POST '/session/198c5a48a182f9cb1edd4efd857eb647/execute/sync'
+2024-05-21 16:45:34 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/198c5a48a182f9cb1edd4efd857eb647/execute/sync HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 48819
+Content-Type: application/json; charset=utf-8
+host: localhost:45492
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2024-05-21 16:45:34 DEBUG ChannelManager:270 - Adding key: http://localhost:45492 for channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]
+2024-05-21 16:45:34 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]' for 'POST' to 'http://localhost:45492/session/198c5a48a182f9cb1edd4efd857eb647/element'
+2024-05-21 16:45:34 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492] for POST '/session/198c5a48a182f9cb1edd4efd857eb647/element'
+2024-05-21 16:45:34 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/198c5a48a182f9cb1edd4efd857eb647/element HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 50
+Content-Type: application/json; charset=utf-8
+host: localhost:45492
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 127
+
+2024-05-21 16:45:34 DEBUG ChannelManager:270 - Adding key: http://localhost:45492 for channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]
+2024-05-21 16:45:34 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]' for 'GET' to 'http://localhost:45492/session/198c5a48a182f9cb1edd4efd857eb647/element/f.8B4950DDEBFA14B564F7B28018E0C335.d.04B5E02F4DEF3975DD3718311833A607.e.161/text'
+2024-05-21 16:45:34 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492] for GET '/session/198c5a48a182f9cb1edd4efd857eb647/element/f.8B4950DDEBFA14B564F7B28018E0C335.d.04B5E02F4DEF3975DD3718311833A607.e.161/text'
+2024-05-21 16:45:34 DEBUG HttpHandler:70 - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/198c5a48a182f9cb1edd4efd857eb647/element/f.8B4950DDEBFA14B564F7B28018E0C335.d.04B5E02F4DEF3975DD3718311833A607.e.161/text HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:45492
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 50
+
+2024-05-21 16:45:34 DEBUG ChannelManager:270 - Adding key: http://localhost:45492 for channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]
+2024-05-21 16:45:34 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65515 : 1
+2024-05-21 16:45:34 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:45492 : 1
+2024-05-21 16:45:35 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65515 : 1
+2024-05-21 16:45:35 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:45492 : 1
+2024-05-21 16:45:36 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]' for 'GET' to 'http://localhost:45492/session/198c5a48a182f9cb1edd4efd857eb647/screenshot'
+2024-05-21 16:45:36 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492] for GET '/session/198c5a48a182f9cb1edd4efd857eb647/screenshot'
+2024-05-21 16:45:36 DEBUG HttpHandler:70 - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/198c5a48a182f9cb1edd4efd857eb647/screenshot HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:45492
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 120244
+
+2024-05-21 16:45:36 DEBUG ChannelManager:270 - Adding key: http://localhost:45492 for channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]
+2024-05-21 16:45:36 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]' for 'DELETE' to 'http://localhost:45492/session/198c5a48a182f9cb1edd4efd857eb647'
+2024-05-21 16:45:36 DEBUG NettyRequestSender:251 - Using open Channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492] for DELETE '/session/198c5a48a182f9cb1edd4efd857eb647'
+2024-05-21 16:45:36 DEBUG WebSocketHandler:126 - Channel Closed: [id: 0xe789c508, L:/127.0.0.1:65523 ! R:localhost/127.0.0.1:65515] with attribute DISCARD
+2024-05-21 16:45:36 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65515 : 1
+2024-05-21 16:45:37 DEBUG HttpHandler:159 - Unexpected I/O exception on channel [id: 0xf271c300, L:/127.0.0.1:65522 - R:localhost/127.0.0.1:65515]
+java.io.IOException: Une connexion existante a dû être fermée par l’hôte distant
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:233)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:358)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2024-05-21 16:45:37 DEBUG ChannelManager:315 - Closing Channel [id: 0xf271c300, L:/127.0.0.1:65522 - R:localhost/127.0.0.1:65515] 
+2024-05-21 16:45:37 DEBUG HttpHandler:126 - Channel Closed: [id: 0xf271c300, L:/127.0.0.1:65522 ! R:localhost/127.0.0.1:65515] with attribute DISCARD
+2024-05-21 16:45:37 DEBUG HttpHandler:70 - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+DELETE /session/198c5a48a182f9cb1edd4efd857eb647 HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Type: application/json; charset=utf-8
+host: localhost:45492
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2024-05-21 16:45:37 DEBUG ChannelManager:270 - Adding key: http://localhost:45492 for channel [id: 0x787cf341, L:/127.0.0.1:65514 - R:localhost/127.0.0.1:45492]
+2024-05-21 16:45:37 DEBUG HttpHandler:126 - Channel Closed: [id: 0x787cf341, L:/127.0.0.1:65514 ! R:localhost/127.0.0.1:45492] with attribute DISCARD
+2024-05-21 16:45:38 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:65515 : 1
+2024-05-21 16:45:38 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:45492 : 1
+2024-05-21 16:45:38 DEBUG DefaultChannelPool:302 - Adding Candidate expired Channel [id: 0xf271c300, L:/127.0.0.1:65522 ! R:localhost/127.0.0.1:65515] isIdleTimeoutExpired=false isRemotelyClosed=true isTtlExpired=false
+2024-05-21 16:45:38 DEBUG DefaultChannelPool:321 - Closing Idle Channel [id: 0xf271c300, L:/127.0.0.1:65522 ! R:localhost/127.0.0.1:65515]
+2024-05-21 16:45:38 DEBUG DefaultChannelPool:302 - Adding Candidate expired Channel [id: 0x787cf341, L:/127.0.0.1:65514 ! R:localhost/127.0.0.1:45492] isIdleTimeoutExpired=false isRemotelyClosed=true isTtlExpired=false
+2024-05-21 16:45:38 DEBUG DefaultChannelPool:321 - Closing Idle Channel [id: 0x787cf341, L:/127.0.0.1:65514 ! R:localhost/127.0.0.1:45492]
+2024-05-21 16:45:38 DEBUG DefaultChannelPool:374 - Closed 2 connections out of 2 in 4 ms
+2024-05-21 16:45:38 DEBUG cache:45 - Couldn't find template in cache for "spark/spark.spa.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-21 16:45:38 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/spark.spa_fr_FR.ftl"): Not found
+2024-05-21 16:45:38 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/spark.spa_fr.ftl"): Not found
+2024-05-21 16:45:38 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/spark.spa.ftl"): Found
+2024-05-21 16:45:38 DEBUG cache:45 - Loading template for "spark/spark.spa.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/spark.spa.ftl"
+2024-05-21 16:45:38 DEBUG cache:45 - Couldn't find template in cache for "commons/commons-variables.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-21 16:45:38 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-variables_fr_FR.ftl"): Not found
+2024-05-21 16:45:38 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-variables_fr.ftl"): Not found
+2024-05-21 16:45:38 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-variables.ftl"): Found
+2024-05-21 16:45:38 DEBUG cache:45 - Loading template for "commons/commons-variables.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/commons/commons-variables.ftl"
+2024-05-21 16:45:39 DEBUG cache:45 - Couldn't find template in cache for "commons/commons-macros.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-21 16:45:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-macros_fr_FR.ftl"): Not found
+2024-05-21 16:45:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-macros_fr.ftl"): Not found
+2024-05-21 16:45:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-macros.ftl"): Found
+2024-05-21 16:45:39 DEBUG cache:45 - Loading template for "commons/commons-macros.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/commons/commons-macros.ftl"
+2024-05-21 16:45:39 DEBUG cache:45 - Couldn't find template in cache for "spark/macros/attributes.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-21 16:45:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/attributes_fr_FR.ftl"): Not found
+2024-05-21 16:45:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/attributes_fr.ftl"): Not found
+2024-05-21 16:45:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/attributes.ftl"): Found
+2024-05-21 16:45:39 DEBUG cache:45 - Loading template for "spark/macros/attributes.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/macros/attributes.ftl"
+2024-05-21 16:45:39 DEBUG cache:45 - Couldn't find template in cache for "spark/macros/log.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-21 16:45:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/log_fr_FR.ftl"): Not found
+2024-05-21 16:45:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/log_fr.ftl"): Not found
+2024-05-21 16:45:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/log.ftl"): Found
+2024-05-21 16:45:39 DEBUG cache:45 - Loading template for "spark/macros/log.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/macros/log.ftl"
+2024-05-21 16:45:39 DEBUG cache:45 - Couldn't find template in cache for "spark/macros/recurse_nodes.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-21 16:45:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_fr_FR.ftl"): Not found
+2024-05-21 16:45:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_fr.ftl"): Not found
+2024-05-21 16:45:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes.ftl"): Found
+2024-05-21 16:45:39 DEBUG cache:45 - Loading template for "spark/macros/recurse_nodes.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/macros/recurse_nodes.ftl"
+2024-05-21 16:45:39 DEBUG cache:45 - "spark/macros/log.ftl"("fr_FR", UTF-8, parsed) cached copy not yet stale; using cached.
+2024-05-21 16:45:39 DEBUG cache:45 - Couldn't find template in cache for "spark/macros/attr-common.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-21 16:45:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/attr-common_fr_FR.ftl"): Not found
+2024-05-21 16:45:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/attr-common_fr.ftl"): Not found
+2024-05-21 16:45:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/attr-common.ftl"): Found
+2024-05-21 16:45:39 DEBUG cache:45 - Loading template for "spark/macros/attr-common.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/macros/attr-common.ftl"
+2024-05-21 16:45:39 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/head.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-21 16:45:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/head_fr_FR.ftl"): Not found
+2024-05-21 16:45:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/head_fr.ftl"): Not found
+2024-05-21 16:45:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/head.ftl"): Found
+2024-05-21 16:45:39 DEBUG cache:45 - Loading template for "spark/partials/head.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/head.ftl"
+2024-05-21 16:45:39 DEBUG cache:45 - Couldn't find template in cache for "commons/commons-inject-css.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-21 16:45:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-css_fr_FR.ftl"): Not found
+2024-05-21 16:45:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-css_fr.ftl"): Not found
+2024-05-21 16:45:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-css.ftl"): Found
+2024-05-21 16:45:39 DEBUG cache:45 - Loading template for "commons/commons-inject-css.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/commons/commons-inject-css.ftl"
+2024-05-21 16:45:39 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/navbar.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-21 16:45:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/navbar_fr_FR.ftl"): Not found
+2024-05-21 16:45:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/navbar_fr.ftl"): Not found
+2024-05-21 16:45:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/navbar.ftl"): Found
+2024-05-21 16:45:39 DEBUG cache:45 - Loading template for "spark/partials/navbar.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/navbar.ftl"
+2024-05-21 16:45:39 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/sidenav.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-21 16:45:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/sidenav_fr_FR.ftl"): Not found
+2024-05-21 16:45:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/sidenav_fr.ftl"): Not found
+2024-05-21 16:45:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/sidenav.ftl"): Found
+2024-05-21 16:45:39 DEBUG cache:45 - Loading template for "spark/partials/sidenav.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/sidenav.ftl"
+2024-05-21 16:45:39 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/test.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-21 16:45:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/test_fr_FR.ftl"): Not found
+2024-05-21 16:45:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/test_fr.ftl"): Not found
+2024-05-21 16:45:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/test.ftl"): Found
+2024-05-21 16:45:39 DEBUG cache:45 - Loading template for "spark/partials/test.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/test.ftl"
+2024-05-21 16:45:39 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/standard-content.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-21 16:45:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/standard-content_fr_FR.ftl"): Not found
+2024-05-21 16:45:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/standard-content_fr.ftl"): Not found
+2024-05-21 16:45:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/standard-content.ftl"): Found
+2024-05-21 16:45:39 DEBUG cache:45 - Loading template for "spark/partials/standard-content.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/standard-content.ftl"
+2024-05-21 16:45:39 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/exception.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-21 16:45:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/exception_fr_FR.ftl"): Not found
+2024-05-21 16:45:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/exception_fr.ftl"): Not found
+2024-05-21 16:45:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/exception.ftl"): Found
+2024-05-21 16:45:39 DEBUG cache:45 - Loading template for "spark/partials/exception.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/exception.ftl"
+2024-05-21 16:45:39 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/category.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-21 16:45:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/category_fr_FR.ftl"): Not found
+2024-05-21 16:45:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/category_fr.ftl"): Not found
+2024-05-21 16:45:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/category.ftl"): Found
+2024-05-21 16:45:39 DEBUG cache:45 - Loading template for "spark/partials/category.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/category.ftl"
+2024-05-21 16:45:39 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/device.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-21 16:45:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/device_fr_FR.ftl"): Not found
+2024-05-21 16:45:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/device_fr.ftl"): Not found
+2024-05-21 16:45:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/device.ftl"): Found
+2024-05-21 16:45:39 DEBUG cache:45 - Loading template for "spark/partials/device.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/device.ftl"
+2024-05-21 16:45:39 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/author.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-21 16:45:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/author_fr_FR.ftl"): Not found
+2024-05-21 16:45:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/author_fr.ftl"): Not found
+2024-05-21 16:45:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/author.ftl"): Found
+2024-05-21 16:45:39 DEBUG cache:45 - Loading template for "spark/partials/author.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/author.ftl"
+2024-05-21 16:45:39 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/log.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-21 16:45:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/log_fr_FR.ftl"): Not found
+2024-05-21 16:45:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/log_fr.ftl"): Not found
+2024-05-21 16:45:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/log.ftl"): Found
+2024-05-21 16:45:39 DEBUG cache:45 - Loading template for "spark/partials/log.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/log.ftl"
+2024-05-21 16:45:39 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/dashboard.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-21 16:45:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/dashboard_fr_FR.ftl"): Not found
+2024-05-21 16:45:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/dashboard_fr.ftl"): Not found
+2024-05-21 16:45:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/dashboard.ftl"): Found
+2024-05-21 16:45:39 DEBUG cache:45 - Loading template for "spark/partials/dashboard.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/dashboard.ftl"
+2024-05-21 16:45:39 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/scripts.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-21 16:45:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/scripts_fr_FR.ftl"): Not found
+2024-05-21 16:45:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/scripts_fr.ftl"): Not found
+2024-05-21 16:45:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/scripts.ftl"): Found
+2024-05-21 16:45:39 DEBUG cache:45 - Loading template for "spark/partials/scripts.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/scripts.ftl"
+2024-05-21 16:45:39 DEBUG cache:45 - Couldn't find template in cache for "commons/commons-inject-js.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-21 16:45:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js_fr_FR.ftl"): Not found
+2024-05-21 16:45:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js_fr.ftl"): Not found
+2024-05-21 16:45:39 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
+2024-05-21 16:45:39 DEBUG cache:45 - Loading template for "commons/commons-inject-js.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl"
+2024-05-22 09:27:52 DEBUG InternalLoggerFactory:63 - Using SLF4J as the default logging framework
+2024-05-22 09:27:52 DEBUG ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+2024-05-22 09:27:52 DEBUG ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+2024-05-22 09:27:52 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@62d363ab
+2024-05-22 09:27:52 DEBUG PlatformDependent0:496 - -Dio.netty.noUnsafe: false
+2024-05-22 09:27:52 DEBUG PlatformDependent0:1000 - Java version: 17
+2024-05-22 09:27:52 DEBUG PlatformDependent0:137 - sun.misc.Unsafe.theUnsafe: available
+2024-05-22 09:27:52 DEBUG PlatformDependent0:161 - sun.misc.Unsafe.copyMemory: available
+2024-05-22 09:27:52 DEBUG PlatformDependent0:193 - sun.misc.Unsafe.storeFence: available
+2024-05-22 09:27:52 DEBUG PlatformDependent0:236 - java.nio.Buffer.address: available
+2024-05-22 09:27:52 DEBUG PlatformDependent0:320 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2024-05-22 09:27:52 DEBUG PlatformDependent0:385 - java.nio.Bits.unaligned: available, true
+2024-05-22 09:27:52 DEBUG PlatformDependent0:452 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @527740a2
+2024-05-22 09:27:52 DEBUG PlatformDependent0:482 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2024-05-22 09:27:52 DEBUG PlatformDependent:1159 - sun.misc.Unsafe: available
+2024-05-22 09:27:52 DEBUG PlatformDependent:1270 - maxDirectMemory: 2097152000 bytes (maybe)
+2024-05-22 09:27:52 DEBUG PlatformDependent:1289 - -Dio.netty.tmpdir: C:\Users\zbarta\AppData\Local\Temp (java.io.tmpdir)
+2024-05-22 09:27:52 DEBUG PlatformDependent:1368 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2024-05-22 09:27:52 DEBUG PlatformDependent:1119 - Platform: Windows
+2024-05-22 09:27:52 DEBUG PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+2024-05-22 09:27:52 DEBUG PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2024-05-22 09:27:52 DEBUG CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+2024-05-22 09:27:52 DEBUG PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+2024-05-22 09:27:52 DEBUG PlatformDependent:1010 - org.jctools-core.MpscChunkedArrayQueue: available
+2024-05-22 09:27:52 DEBUG InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2024-05-22 09:27:52 DEBUG InternalThreadLocalMap:89 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2024-05-22 09:27:53 DEBUG JdkSslContext:83 - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2024-05-22 09:27:53 DEBUG JdkSslContext:84 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2024-05-22 09:27:53 DEBUG MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 16
+2024-05-22 09:27:53 DEBUG NioEventLoop:110 - -Dio.netty.noKeySetOptimization: false
+2024-05-22 09:27:53 DEBUG NioEventLoop:111 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2024-05-22 09:27:53 DEBUG PooledByteBufAllocator:157 - -Dio.netty.allocator.numHeapArenas: 16
+2024-05-22 09:27:53 DEBUG PooledByteBufAllocator:158 - -Dio.netty.allocator.numDirectArenas: 16
+2024-05-22 09:27:53 DEBUG PooledByteBufAllocator:160 - -Dio.netty.allocator.pageSize: 8192
+2024-05-22 09:27:53 DEBUG PooledByteBufAllocator:165 - -Dio.netty.allocator.maxOrder: 9
+2024-05-22 09:27:53 DEBUG PooledByteBufAllocator:169 - -Dio.netty.allocator.chunkSize: 4194304
+2024-05-22 09:27:53 DEBUG PooledByteBufAllocator:170 - -Dio.netty.allocator.smallCacheSize: 256
+2024-05-22 09:27:53 DEBUG PooledByteBufAllocator:171 - -Dio.netty.allocator.normalCacheSize: 64
+2024-05-22 09:27:53 DEBUG PooledByteBufAllocator:172 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2024-05-22 09:27:53 DEBUG PooledByteBufAllocator:173 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2024-05-22 09:27:53 DEBUG PooledByteBufAllocator:174 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2024-05-22 09:27:53 DEBUG PooledByteBufAllocator:175 - -Dio.netty.allocator.useCacheForAllThreads: false
+2024-05-22 09:27:53 DEBUG PooledByteBufAllocator:176 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2024-05-22 09:27:53 DEBUG ByteBufUtil:87 - -Dio.netty.allocator.type: pooled
+2024-05-22 09:27:53 DEBUG ByteBufUtil:96 - -Dio.netty.threadLocalDirectBufferSize: 0
+2024-05-22 09:27:53 DEBUG ByteBufUtil:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2024-05-22 09:27:53 DEBUG DefaultChannelId:79 - -Dio.netty.processId: 16628 (auto-detected)
+2024-05-22 09:27:53 DEBUG NetUtil:136 - -Djava.net.preferIPv4Stack: false
+2024-05-22 09:27:53 DEBUG NetUtil:137 - -Djava.net.preferIPv6Addresses: false
+2024-05-22 09:27:53 DEBUG NetUtilInitializations:129 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2024-05-22 09:27:53 DEBUG NetUtil:191 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2024-05-22 09:27:53 DEBUG DefaultChannelId:101 - -Dio.netty.machineId: 94:e6:f7:ff:fe:ba:e7:6c (auto-detected)
+2024-05-22 09:27:53 DEBUG AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+2024-05-22 09:27:53 DEBUG AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+2024-05-22 09:27:53 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@393f0139
+2024-05-22 09:27:53 DEBUG NettyConnectListener:73 - Using new Channel '[id: 0xa90e03e7, L:/127.0.0.1:61199 - R:localhost/127.0.0.1:42199]' for 'POST' to '/session'
+2024-05-22 09:27:53 DEBUG Recycler:85 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2024-05-22 09:27:53 DEBUG Recycler:86 - -Dio.netty.recycler.ratio: 8
+2024-05-22 09:27:53 DEBUG Recycler:87 - -Dio.netty.recycler.chunkSize: 32
+2024-05-22 09:27:53 DEBUG Recycler:88 - -Dio.netty.recycler.blocking: false
+2024-05-22 09:27:55 DEBUG Brotli:38 - brotli4j not in the classpath; Brotli support will be unavailable.
+2024-05-22 09:27:55 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 623
+Content-Type: application/json; charset=utf-8
+host: localhost:42199
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 865
+
+2024-05-22 09:27:55 DEBUG ChannelManager:270 - Adding key: http://localhost:42199 for channel [id: 0xa90e03e7, L:/127.0.0.1:61199 - R:localhost/127.0.0.1:42199]
+2024-05-22 09:27:55 DEBUG NettyConnectListener:73 - Using new Channel '[id: 0xb2bdeed4, L:/127.0.0.1:61207 - R:localhost/127.0.0.1:61200]' for 'GET' to '/json/version'
+2024-05-22 09:27:55 DEBUG HttpHandler:70 - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /json/version HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+host: localhost:61200
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Security-Policy: frame-ancestors 'none'
+Content-Type: application/json; charset=UTF-8
+content-length: 422
+
+2024-05-22 09:27:55 DEBUG ChannelManager:270 - Adding key: http://localhost:61200 for channel [id: 0xb2bdeed4, L:/127.0.0.1:61207 - R:localhost/127.0.0.1:61200]
+2024-05-22 09:27:55 DEBUG ThreadLocalRandom:214 - -Dio.netty.initialSeedUniquifier: 0x2568bbdd42969903
+2024-05-22 09:27:55 DEBUG NettyConnectListener:73 - Using new Channel '[id: 0xa67b3c53, L:/127.0.0.1:61208 - R:localhost/127.0.0.1:61200]' for 'GET' to '/devtools/browser/f8e9439a-527d-4b46-aab1-52b35a62acc1'
+2024-05-22 09:27:55 DEBUG WebSocketHandler:105 - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /devtools/browser/f8e9439a-527d-4b46-aab1-52b35a62acc1 HTTP/1.1
+upgrade: websocket
+connection: upgrade
+sec-websocket-key: UV/kQgodj4nHK2PD5SLnWw==
+sec-websocket-version: 13
+origin: http://localhost:61200
+host: localhost:61200
+accept: */*
+user-agent: AHC/2.1
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 101 WebSocket Protocol Handshake
+Upgrade: WebSocket
+Connection: Upgrade
+Sec-WebSocket-Accept: z/T9sxRiE3PmUObLG6ldi+wPJSE=
+
+2024-05-22 09:27:55 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0xa90e03e7, L:/127.0.0.1:61199 - R:localhost/127.0.0.1:42199]' for 'POST' to 'http://localhost:42199/session/2e6abc18d1868cf3936de9e84c2b33ed/url'
+2024-05-22 09:27:55 DEBUG NettyRequestSender:251 - Using open Channel [id: 0xa90e03e7, L:/127.0.0.1:61199 - R:localhost/127.0.0.1:42199] for POST '/session/2e6abc18d1868cf3936de9e84c2b33ed/url'
+2024-05-22 09:27:56 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:61200 : 1
+2024-05-22 09:27:57 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:61200 : 1
+2024-05-22 09:27:58 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:61200 : 1
+2024-05-22 09:27:59 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:61200 : 1
+2024-05-22 09:28:00 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:61200 : 1
+2024-05-22 09:28:01 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:61200 : 1
+2024-05-22 09:28:02 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/2e6abc18d1868cf3936de9e84c2b33ed/url HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 75
+Content-Type: application/json; charset=utf-8
+host: localhost:42199
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2024-05-22 09:28:02 DEBUG ChannelManager:270 - Adding key: http://localhost:42199 for channel [id: 0xa90e03e7, L:/127.0.0.1:61199 - R:localhost/127.0.0.1:42199]
+2024-05-22 09:28:02 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0xa90e03e7, L:/127.0.0.1:61199 - R:localhost/127.0.0.1:42199]' for 'POST' to 'http://localhost:42199/session/2e6abc18d1868cf3936de9e84c2b33ed/element'
+2024-05-22 09:28:02 DEBUG NettyRequestSender:251 - Using open Channel [id: 0xa90e03e7, L:/127.0.0.1:61199 - R:localhost/127.0.0.1:42199] for POST '/session/2e6abc18d1868cf3936de9e84c2b33ed/element'
+2024-05-22 09:28:02 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/2e6abc18d1868cf3936de9e84c2b33ed/element HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 55
+Content-Type: application/json; charset=utf-8
+host: localhost:42199
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 125
+
+2024-05-22 09:28:02 DEBUG ChannelManager:270 - Adding key: http://localhost:42199 for channel [id: 0xa90e03e7, L:/127.0.0.1:61199 - R:localhost/127.0.0.1:42199]
+2024-05-22 09:28:02 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0xa90e03e7, L:/127.0.0.1:61199 - R:localhost/127.0.0.1:42199]' for 'POST' to 'http://localhost:42199/session/2e6abc18d1868cf3936de9e84c2b33ed/element/f.1816F40C9412AD2A31DCEC01B44467D8.d.BFA56445EA4E0511D7E97A7699C82E06.e.2/value'
+2024-05-22 09:28:02 DEBUG NettyRequestSender:251 - Using open Channel [id: 0xa90e03e7, L:/127.0.0.1:61199 - R:localhost/127.0.0.1:42199] for POST '/session/2e6abc18d1868cf3936de9e84c2b33ed/element/f.1816F40C9412AD2A31DCEC01B44467D8.d.BFA56445EA4E0511D7E97A7699C82E06.e.2/value'
+2024-05-22 09:28:02 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/2e6abc18d1868cf3936de9e84c2b33ed/element/f.1816F40C9412AD2A31DCEC01B44467D8.d.BFA56445EA4E0511D7E97A7699C82E06.e.2/value HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 338
+Content-Type: application/json; charset=utf-8
+host: localhost:42199
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2024-05-22 09:28:02 DEBUG ChannelManager:270 - Adding key: http://localhost:42199 for channel [id: 0xa90e03e7, L:/127.0.0.1:61199 - R:localhost/127.0.0.1:42199]
+2024-05-22 09:28:02 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0xa90e03e7, L:/127.0.0.1:61199 - R:localhost/127.0.0.1:42199]' for 'POST' to 'http://localhost:42199/session/2e6abc18d1868cf3936de9e84c2b33ed/element'
+2024-05-22 09:28:02 DEBUG NettyRequestSender:251 - Using open Channel [id: 0xa90e03e7, L:/127.0.0.1:61199 - R:localhost/127.0.0.1:42199] for POST '/session/2e6abc18d1868cf3936de9e84c2b33ed/element'
+2024-05-22 09:28:02 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/2e6abc18d1868cf3936de9e84c2b33ed/element HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 58
+Content-Type: application/json; charset=utf-8
+host: localhost:42199
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 125
+
+2024-05-22 09:28:02 DEBUG ChannelManager:270 - Adding key: http://localhost:42199 for channel [id: 0xa90e03e7, L:/127.0.0.1:61199 - R:localhost/127.0.0.1:42199]
+2024-05-22 09:28:02 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0xa90e03e7, L:/127.0.0.1:61199 - R:localhost/127.0.0.1:42199]' for 'POST' to 'http://localhost:42199/session/2e6abc18d1868cf3936de9e84c2b33ed/element/f.1816F40C9412AD2A31DCEC01B44467D8.d.BFA56445EA4E0511D7E97A7699C82E06.e.3/value'
+2024-05-22 09:28:02 DEBUG NettyRequestSender:251 - Using open Channel [id: 0xa90e03e7, L:/127.0.0.1:61199 - R:localhost/127.0.0.1:42199] for POST '/session/2e6abc18d1868cf3936de9e84c2b33ed/element/f.1816F40C9412AD2A31DCEC01B44467D8.d.BFA56445EA4E0511D7E97A7699C82E06.e.3/value'
+2024-05-22 09:28:02 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/2e6abc18d1868cf3936de9e84c2b33ed/element/f.1816F40C9412AD2A31DCEC01B44467D8.d.BFA56445EA4E0511D7E97A7699C82E06.e.3/value HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 228
+Content-Type: application/json; charset=utf-8
+host: localhost:42199
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2024-05-22 09:28:02 DEBUG ChannelManager:270 - Adding key: http://localhost:42199 for channel [id: 0xa90e03e7, L:/127.0.0.1:61199 - R:localhost/127.0.0.1:42199]
+2024-05-22 09:28:02 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0xa90e03e7, L:/127.0.0.1:61199 - R:localhost/127.0.0.1:42199]' for 'POST' to 'http://localhost:42199/session/2e6abc18d1868cf3936de9e84c2b33ed/element'
+2024-05-22 09:28:02 DEBUG NettyRequestSender:251 - Using open Channel [id: 0xa90e03e7, L:/127.0.0.1:61199 - R:localhost/127.0.0.1:42199] for POST '/session/2e6abc18d1868cf3936de9e84c2b33ed/element'
+2024-05-22 09:28:02 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/2e6abc18d1868cf3936de9e84c2b33ed/element HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 60
+Content-Type: application/json; charset=utf-8
+host: localhost:42199
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 125
+
+2024-05-22 09:28:02 DEBUG ChannelManager:270 - Adding key: http://localhost:42199 for channel [id: 0xa90e03e7, L:/127.0.0.1:61199 - R:localhost/127.0.0.1:42199]
+2024-05-22 09:28:02 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0xa90e03e7, L:/127.0.0.1:61199 - R:localhost/127.0.0.1:42199]' for 'POST' to 'http://localhost:42199/session/2e6abc18d1868cf3936de9e84c2b33ed/element/f.1816F40C9412AD2A31DCEC01B44467D8.d.BFA56445EA4E0511D7E97A7699C82E06.e.7/click'
+2024-05-22 09:28:02 DEBUG NettyRequestSender:251 - Using open Channel [id: 0xa90e03e7, L:/127.0.0.1:61199 - R:localhost/127.0.0.1:42199] for POST '/session/2e6abc18d1868cf3936de9e84c2b33ed/element/f.1816F40C9412AD2A31DCEC01B44467D8.d.BFA56445EA4E0511D7E97A7699C82E06.e.7/click'
+2024-05-22 09:28:02 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:61200 : 1
+2024-05-22 09:28:03 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:61200 : 1
+2024-05-22 09:28:05 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:61200 : 1
+2024-05-22 09:28:06 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:61200 : 1
+2024-05-22 09:28:07 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:61200 : 1
+2024-05-22 09:28:07 DEBUG HttpHandler:70 - 
+
+Request DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+POST /session/2e6abc18d1868cf3936de9e84c2b33ed/element/f.1816F40C9412AD2A31DCEC01B44467D8.d.BFA56445EA4E0511D7E97A7699C82E06.e.7/click HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Length: 87
+Content-Type: application/json; charset=utf-8
+host: localhost:42199
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2024-05-22 09:28:07 DEBUG ChannelManager:270 - Adding key: http://localhost:42199 for channel [id: 0xa90e03e7, L:/127.0.0.1:61199 - R:localhost/127.0.0.1:42199]
+2024-05-22 09:28:08 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:61200 : 1
+2024-05-22 09:28:08 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:42199 : 1
+2024-05-22 09:28:09 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0xa90e03e7, L:/127.0.0.1:61199 - R:localhost/127.0.0.1:42199]' for 'GET' to 'http://localhost:42199/session/2e6abc18d1868cf3936de9e84c2b33ed/screenshot'
+2024-05-22 09:28:09 DEBUG NettyRequestSender:251 - Using open Channel [id: 0xa90e03e7, L:/127.0.0.1:61199 - R:localhost/127.0.0.1:42199] for GET '/session/2e6abc18d1868cf3936de9e84c2b33ed/screenshot'
+2024-05-22 09:28:09 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:61200 : 1
+2024-05-22 09:28:09 DEBUG HttpHandler:70 - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+GET /session/2e6abc18d1868cf3936de9e84c2b33ed/screenshot HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Cache-Control: no-cache
+Content-Type: application/json; charset=utf-8
+host: localhost:42199
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 167156
+
+2024-05-22 09:28:09 DEBUG ChannelManager:270 - Adding key: http://localhost:42199 for channel [id: 0xa90e03e7, L:/127.0.0.1:61199 - R:localhost/127.0.0.1:42199]
+2024-05-22 09:28:09 DEBUG NettyRequestSender:593 - Using pooled Channel '[id: 0xa90e03e7, L:/127.0.0.1:61199 - R:localhost/127.0.0.1:42199]' for 'DELETE' to 'http://localhost:42199/session/2e6abc18d1868cf3936de9e84c2b33ed'
+2024-05-22 09:28:09 DEBUG NettyRequestSender:251 - Using open Channel [id: 0xa90e03e7, L:/127.0.0.1:61199 - R:localhost/127.0.0.1:42199] for DELETE '/session/2e6abc18d1868cf3936de9e84c2b33ed'
+2024-05-22 09:28:09 DEBUG WebSocketHandler:126 - Channel Closed: [id: 0xa67b3c53, L:/127.0.0.1:61208 ! R:localhost/127.0.0.1:61200] with attribute DISCARD
+2024-05-22 09:28:09 DEBUG HttpHandler:159 - Unexpected I/O exception on channel [id: 0xb2bdeed4, L:/127.0.0.1:61207 - R:localhost/127.0.0.1:61200]
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024-05-22 09:28:09 DEBUG ChannelManager:315 - Closing Channel [id: 0xb2bdeed4, L:/127.0.0.1:61207 - R:localhost/127.0.0.1:61200] 
+2024-05-22 09:28:09 DEBUG HttpHandler:126 - Channel Closed: [id: 0xb2bdeed4, L:/127.0.0.1:61207 ! R:localhost/127.0.0.1:61200] with attribute DISCARD
+2024-05-22 09:28:09 DEBUG HttpHandler:70 - 
+
+Request DefaultFullHttpRequest(decodeResult: success, version: HTTP/1.1, content: EmptyByteBufBE)
+DELETE /session/2e6abc18d1868cf3936de9e84c2b33ed HTTP/1.1
+User-Agent: selenium/4.7.2 (java windows)
+Content-Type: application/json; charset=utf-8
+host: localhost:42199
+accept: */*
+
+Response DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+content-length: 14
+
+2024-05-22 09:28:09 DEBUG ChannelManager:270 - Adding key: http://localhost:42199 for channel [id: 0xa90e03e7, L:/127.0.0.1:61199 - R:localhost/127.0.0.1:42199]
+2024-05-22 09:28:10 DEBUG HttpHandler:126 - Channel Closed: [id: 0xa90e03e7, L:/127.0.0.1:61199 ! R:localhost/127.0.0.1:42199] with attribute DISCARD
+2024-05-22 09:28:10 DEBUG cache:45 - Couldn't find template in cache for "spark/spark.spa.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/spark.spa_fr_FR.ftl"): Not found
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/spark.spa_fr.ftl"): Not found
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/spark.spa.ftl"): Found
+2024-05-22 09:28:10 DEBUG cache:45 - Loading template for "spark/spark.spa.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/spark.spa.ftl"
+2024-05-22 09:28:10 DEBUG cache:45 - Couldn't find template in cache for "commons/commons-variables.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-variables_fr_FR.ftl"): Not found
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-variables_fr.ftl"): Not found
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-variables.ftl"): Found
+2024-05-22 09:28:10 DEBUG cache:45 - Loading template for "commons/commons-variables.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/commons/commons-variables.ftl"
+2024-05-22 09:28:10 DEBUG cache:45 - Couldn't find template in cache for "commons/commons-macros.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-macros_fr_FR.ftl"): Not found
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-macros_fr.ftl"): Not found
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-macros.ftl"): Found
+2024-05-22 09:28:10 DEBUG cache:45 - Loading template for "commons/commons-macros.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/commons/commons-macros.ftl"
+2024-05-22 09:28:10 DEBUG cache:45 - Couldn't find template in cache for "spark/macros/attributes.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/attributes_fr_FR.ftl"): Not found
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/attributes_fr.ftl"): Not found
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/attributes.ftl"): Found
+2024-05-22 09:28:10 DEBUG cache:45 - Loading template for "spark/macros/attributes.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/macros/attributes.ftl"
+2024-05-22 09:28:10 DEBUG cache:45 - Couldn't find template in cache for "spark/macros/log.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/log_fr_FR.ftl"): Not found
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/log_fr.ftl"): Not found
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/log.ftl"): Found
+2024-05-22 09:28:10 DEBUG cache:45 - Loading template for "spark/macros/log.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/macros/log.ftl"
+2024-05-22 09:28:10 DEBUG cache:45 - Couldn't find template in cache for "spark/macros/recurse_nodes.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_fr_FR.ftl"): Not found
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_fr.ftl"): Not found
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes.ftl"): Found
+2024-05-22 09:28:10 DEBUG cache:45 - Loading template for "spark/macros/recurse_nodes.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/macros/recurse_nodes.ftl"
+2024-05-22 09:28:10 DEBUG cache:45 - "spark/macros/log.ftl"("fr_FR", UTF-8, parsed) cached copy not yet stale; using cached.
+2024-05-22 09:28:10 DEBUG cache:45 - Couldn't find template in cache for "spark/macros/attr-common.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/attr-common_fr_FR.ftl"): Not found
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/attr-common_fr.ftl"): Not found
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/attr-common.ftl"): Found
+2024-05-22 09:28:10 DEBUG cache:45 - Loading template for "spark/macros/attr-common.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/macros/attr-common.ftl"
+2024-05-22 09:28:10 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/head.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/head_fr_FR.ftl"): Not found
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/head_fr.ftl"): Not found
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/head.ftl"): Found
+2024-05-22 09:28:10 DEBUG cache:45 - Loading template for "spark/partials/head.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/head.ftl"
+2024-05-22 09:28:10 DEBUG cache:45 - Couldn't find template in cache for "commons/commons-inject-css.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-css_fr_FR.ftl"): Not found
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-css_fr.ftl"): Not found
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-css.ftl"): Found
+2024-05-22 09:28:10 DEBUG cache:45 - Loading template for "commons/commons-inject-css.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/commons/commons-inject-css.ftl"
+2024-05-22 09:28:10 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/navbar.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/navbar_fr_FR.ftl"): Not found
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/navbar_fr.ftl"): Not found
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/navbar.ftl"): Found
+2024-05-22 09:28:10 DEBUG cache:45 - Loading template for "spark/partials/navbar.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/navbar.ftl"
+2024-05-22 09:28:10 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/sidenav.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/sidenav_fr_FR.ftl"): Not found
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/sidenav_fr.ftl"): Not found
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/sidenav.ftl"): Found
+2024-05-22 09:28:10 DEBUG cache:45 - Loading template for "spark/partials/sidenav.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/sidenav.ftl"
+2024-05-22 09:28:10 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/test.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/test_fr_FR.ftl"): Not found
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/test_fr.ftl"): Not found
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/test.ftl"): Found
+2024-05-22 09:28:10 DEBUG cache:45 - Loading template for "spark/partials/test.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/test.ftl"
+2024-05-22 09:28:10 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/standard-content.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/standard-content_fr_FR.ftl"): Not found
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/standard-content_fr.ftl"): Not found
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/standard-content.ftl"): Found
+2024-05-22 09:28:10 DEBUG cache:45 - Loading template for "spark/partials/standard-content.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/standard-content.ftl"
+2024-05-22 09:28:10 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/exception.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/exception_fr_FR.ftl"): Not found
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/exception_fr.ftl"): Not found
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/exception.ftl"): Found
+2024-05-22 09:28:10 DEBUG cache:45 - Loading template for "spark/partials/exception.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/exception.ftl"
+2024-05-22 09:28:10 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/category.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/category_fr_FR.ftl"): Not found
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/category_fr.ftl"): Not found
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/category.ftl"): Found
+2024-05-22 09:28:10 DEBUG cache:45 - Loading template for "spark/partials/category.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/category.ftl"
+2024-05-22 09:28:10 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/device.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/device_fr_FR.ftl"): Not found
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/device_fr.ftl"): Not found
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/device.ftl"): Found
+2024-05-22 09:28:10 DEBUG cache:45 - Loading template for "spark/partials/device.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/device.ftl"
+2024-05-22 09:28:10 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/author.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/author_fr_FR.ftl"): Not found
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/author_fr.ftl"): Not found
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/author.ftl"): Found
+2024-05-22 09:28:10 DEBUG cache:45 - Loading template for "spark/partials/author.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/author.ftl"
+2024-05-22 09:28:10 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/log.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/log_fr_FR.ftl"): Not found
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/log_fr.ftl"): Not found
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/log.ftl"): Found
+2024-05-22 09:28:10 DEBUG cache:45 - Loading template for "spark/partials/log.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/log.ftl"
+2024-05-22 09:28:10 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/dashboard.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/dashboard_fr_FR.ftl"): Not found
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/dashboard_fr.ftl"): Not found
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/dashboard.ftl"): Found
+2024-05-22 09:28:10 DEBUG cache:45 - Loading template for "spark/partials/dashboard.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/dashboard.ftl"
+2024-05-22 09:28:10 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:61200 : 1
+2024-05-22 09:28:10 DEBUG DefaultChannelPool:348 - Entry count for : http://localhost:42199 : 1
+2024-05-22 09:28:10 DEBUG DefaultChannelPool:302 - Adding Candidate expired Channel [id: 0xb2bdeed4, L:/127.0.0.1:61207 ! R:localhost/127.0.0.1:61200] isIdleTimeoutExpired=false isRemotelyClosed=true isTtlExpired=false
+2024-05-22 09:28:10 DEBUG DefaultChannelPool:321 - Closing Idle Channel [id: 0xb2bdeed4, L:/127.0.0.1:61207 ! R:localhost/127.0.0.1:61200]
+2024-05-22 09:28:10 DEBUG DefaultChannelPool:302 - Adding Candidate expired Channel [id: 0xa90e03e7, L:/127.0.0.1:61199 ! R:localhost/127.0.0.1:42199] isIdleTimeoutExpired=false isRemotelyClosed=true isTtlExpired=false
+2024-05-22 09:28:10 DEBUG DefaultChannelPool:321 - Closing Idle Channel [id: 0xa90e03e7, L:/127.0.0.1:61199 ! R:localhost/127.0.0.1:42199]
+2024-05-22 09:28:10 DEBUG DefaultChannelPool:374 - Closed 2 connections out of 2 in 1 ms
+2024-05-22 09:28:10 DEBUG cache:45 - Couldn't find template in cache for "spark/partials/scripts.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/scripts_fr_FR.ftl"): Not found
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/scripts_fr.ftl"): Not found
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/scripts.ftl"): Found
+2024-05-22 09:28:10 DEBUG cache:45 - Loading template for "spark/partials/scripts.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/scripts.ftl"
+2024-05-22 09:28:10 DEBUG cache:45 - Couldn't find template in cache for "commons/commons-inject-js.ftl"("fr_FR", UTF-8, parsed); will try to load it.
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js_fr_FR.ftl"): Not found
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js_fr.ftl"): Not found
+2024-05-22 09:28:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
+2024-05-22 09:28:10 DEBUG cache:45 - Loading template for "commons/commons-inject-js.ftl"("fr_FR", UTF-8, parsed) from "jar:file:/C:/Users/zbarta/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl"
