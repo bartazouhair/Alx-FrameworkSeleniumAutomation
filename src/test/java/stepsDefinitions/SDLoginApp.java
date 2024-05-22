@@ -72,7 +72,7 @@ public class SDLoginApp {
 		Thread.sleep(2000);
 	}
 
-	@And("Take a screenshot dashboard")
+	@And("Take a screenshort dashboard")
 	public void take_a_screenshot_dashboard() {
 		extentReport.logStep("Taking a screenshot of the dashboard");
 		// Take a screenshot of the dashboard
