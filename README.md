@@ -95,8 +95,11 @@ The pom.xml file includes the following dependencies:
   - Takes a screenshot of the search results.
 
 ## Running Tests
-To run the Cucumber tests, use the following command:
-mvn clean test -Dcucumber.options="--tags @run"
+To start the project, there are three options:
+  1. Use the Maven command to run the Cucumber tests, use the following command:
+        **mvn clean test -Dcucumber.options="--tags @run"**
+  2. Use the Eclipse editor or the main TestRunner class.
+  3. Use continuous integration with **Jenkins**. I have integrated a **job in Jenkins** to automatically execute the code.
 
 ## Test Report
 The project uses ExtentReports to generate detailed HTML reports. The reports will be generated in the reports directory at the root of the project.
@@ -110,5 +113,10 @@ Screenshots of failed tests and specific steps are saved in the src/test/resourc
 ## Logging
 The project uses Log4j for logging. Log files are saved in the logs directory.
 
+## Example or Screenshots
+Please refer to the following video to see the project in action: 
+
+https:// in progress
+
 ## Authors
-Zouhair Barta
+**Zouhair Barta**
