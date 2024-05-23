@@ -1,0 +1,130 @@
+##### ***** Rapport de Projet: AlxAutomation ***** #####
+AlxAutomation est un projet d'automatisation de tests utilisant Selenium, Cucumber, ExtentReports, et d'autres outils pour tester le site intranet ALX. 
+Ce rapport détaille les outils utilisés, l'architecture globale, les avantages, ainsi que l'intégration continue avec Jenkins, GitHub, Java, Cucumber, WebDriver, TestNG, PageObjectModel, StepDefinition, HTMLReport, JSON, etc.
+
+## Table des Matières ##
+1. Introduction
+Le projet AlxAutomation vise à automatiser les tests du site intranet ALX en utilisant des outils de test modernes et efficaces. Ce projet couvre les fonctionnalités de connexion, gestion des curriculums, planification, profil utilisateur, projets, et recherche de projets.
+
+2. Outils Utilisés
+  - Java JDK 11 ou supérieur
+  - Maven : Pour la gestion des dépendances et le cycle de vie du projet.
+  - Selenium WebDriver : Pour l'automatisation des interactions avec le navigateur.
+  - Cucumber : Pour les tests basés sur des scénarios en langage naturel.
+  - TestNG : Pour la gestion des suites de tests.
+  - ExtentReports : Pour la génération de rapports HTML détaillés.
+  - Jenkins : Pour l'intégration continue et l'exécution automatisée des tests.
+  - GitHub : Pour la gestion du code source et la collaboration.
+  - Log4j : Pour la gestion des logs.
+
+3. Architecture Globale
+L'architecture du projet suit une approche modulaire, avec des couches distinctes pour la gestion des tests, les pages, les étapes de définition, et les utilitaires. Voici un diagramme simplifié :
+|
+|-- src/main/java
+|   |-- pageObjects
+|   |   |-- LoginAppPage.java
+|   |   |-- CurriculumPage.java
+|   |   |-- PlanningPage.java
+|   |   |-- ProfilPage.java
+|   |   |-- ProjectPage.java
+|   |   |-- SearchPage.java
+|   |-- utils
+|       |-- BrowserFactory.java
+|       |-- Constante.java
+|       |-- ExtentHTMLReport.java
+|       |-- PropertiesFile.java
+|-- src/test/java
+|   |-- features
+|   |   |-- LoginApp.feature
+|   |   |-- Curriculum.feature
+|   |   |-- Planning.feature
+|   |   |-- Profil.feature
+|   |   |-- Project.feature
+|   |   |-- SearchProject.feature
+|   |-- stepsDefinitions
+|   |   |-- SDLoginApp.java
+|   |   |-- SDCurriculumsAlx.java
+|   |   |-- SDPlanningAlx.java
+|   |   |-- SDProfilAlx.java
+|   |   |-- SDProjectAlx.java
+|   |   |-- SDSearchProjectAlx.java
+|   |-- Hooks
+|   |   |-- Hook.java
+|   |-- modules
+|   |   |-- TestRunner.java
+|-- pom.xml
+
+4. Avantages
+  - Modularité : Séparation claire des responsabilités avec PageObjectModel et StepDefinitions.
+  - Lisibilité : Utilisation de Cucumber pour des scénarios en langage naturel.
+  - Extensibilité : Facilité d'ajout de nouvelles fonctionnalités de test.
+  - Rapports Détaillés : ExtentReports fournit des rapports HTML clairs et détaillés.
+  - Automatisation : Intégration continue avec Jenkins pour des exécutions de tests automatisées.
+
+5. Intégration Continue avec Jenkins
+Jenkins est configuré pour exécuter automatiquement les tests à chaque commit. Les étapes comprennent :
+  - Clonage du Référentiel : Jenkins récupère le code de GitHub.
+  - Installation des Dépendances : Maven installe les dépendances définies dans pom.xml.
+  - Exécution des Tests : Jenkins exécute les tests en utilisant les runners définis.
+  - Génération de Rapports : Les rapports HTML sont générés par ExtentReports.
+
+6. Détails des Composants
+    - GitHub : Le code source est géré dans un référentiel GitHub, facilitant la collaboration et la gestion des versions.
+    - Java : Le projet utilise Java pour l'implémentation des tests et des pages.
+    - Selenium WebDriver : Selenium WebDriver est utilisé pour automatiser les interactions avec les navigateurs. Les tests couvrent plusieurs navigateurs grâce aux différents drivers (Chrome).
+    - Cucumber : Cucumber permet de définir les scénarios de tests en langage Gherkin, rendant les tests accessibles et lisibles par tous les membres de l'équipe.
+    - TestNG : TestNG gère les suites de tests et permet d'organiser et de configurer les tests de manière flexible.
+    - PageObjectModel : Les pages de l'application sont représentées par des classes distinctes, facilitant la maintenance et l'extensibilité du code.
+    - StepDefinition : Les étapes des scénarios Cucumber sont implémentées dans des classes de définition d'étapes, assurant une séparation claire des responsabilités.
+    - HTMLReport : ExtentReports génère des rapports HTML détaillés des résultats des tests, incluant des captures d'écran et des logs.
+    - JSON : Les résultats des tests sont également disponibles en format JSON pour une intégration facile avec d'autres outils.
+    - Exécution des Tests : "mvn clean test -Dcucumber.options="--tags @run"
+
+7. Diagrammes 
+[GitHub Repository] -> [Jenkins Server] -> [Jenkins Jobs]
+                                      -> [Maven] -> [Selenium WebDriver]
+                                      -> [TestNG]
+                                      -> [Cucumber]
+                                      -> [ExtentReports]
+                                      -> [Browsers (Chrome, Firefox, IE)]
+                                      -> [Log4j]
+
+Client Side
+-----------
+[Browsers (Chrome, Firefox, IE)]
+
+Backend
+-------
+[GitHub Repository] -> [Jenkins Server] -> [Jenkins Jobs]
+                                      -> [Maven] -> [Selenium WebDriver]
+                                      -> [TestNG]
+                                      -> [Cucumber]
+                                      -> [ExtentReports]
+                                      -> [Page Object Model]
+                                      -> [Step Definitions]
+
+
+Client Side
+-----------
+[Browsers (Chrome, Firefox, IE)]
+       |
+       v
+[Selenium WebDriver] <-- [Step Definitions] <-- [Page Object Model]
+
+Server Side
+-----------
+[GitHub Repository] -> [Jenkins Server] -> [Jenkins Jobs] -> [Maven]
+                                                |
+                                                v
+                                            [Cucumber]
+                                                |
+                                                v
+                                             [TestNG]
+                                                |
+                                                v
+                                          [ExtentReports]
+
+8. Conclusion
+Le projet AlxAutomation est un exemple solide de mise en œuvre de l'automatisation des tests en utilisant des outils modernes et des pratiques de développement robustes. Grâce à l'intégration continue avec Jenkins, GitHub, et la génération de rapports détaillés, ce projet assure une qualité et une fiabilité élevées des tests.
+
+## Pour toute question ou assistance, veuillez contacter **Zouhair Barta** ##
