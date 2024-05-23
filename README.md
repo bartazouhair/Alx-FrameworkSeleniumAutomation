@@ -39,6 +39,43 @@ All the Best! Happy Testing :)
   - src/test/java: Contains the test files and Cucumber step definitions.
   - src/test/resources: Contains configuration files and browser drivers.
 
+## Architecture Globale
+The project architecture follows a modular approach, with distinct layers for test management, pages, definition steps and utilities. Here's a simplified diagram:
+
+|-- src/main/java
+|   |-- pageObjects
+|   |   |-- LoginAppPage.java
+|   |   |-- CurriculumPage.java
+|   |   |-- PlanningPage.java
+|   |   |-- ProfilPage.java
+|   |   |-- ProjectPage.java
+|   |   |-- SearchPage.java
+|   |-- utils
+|       |-- BrowserFactory.java
+|       |-- Constante.java
+|       |-- ExtentHTMLReport.java
+|       |-- PropertiesFile.java
+|-- src/test/java
+|   |-- features
+|   |   |-- LoginApp.feature
+|   |   |-- Curriculum.feature
+|   |   |-- Planning.feature
+|   |   |-- Profil.feature
+|   |   |-- Project.feature
+|   |   |-- SearchProject.feature
+|   |-- stepsDefinitions
+|   |   |-- SDLoginApp.java
+|   |   |-- SDCurriculumsAlx.java
+|   |   |-- SDPlanningAlx.java
+|   |   |-- SDProfilAlx.java
+|   |   |-- SDProjectAlx.java
+|   |   |-- SDSearchProjectAlx.java
+|   |-- Hooks
+|   |   |-- Hook.java
+|   |-- modules
+|   |   |-- TestRunner.java
+|-- pom.xml
+
 ## Maven Dependencies
 The pom.xml file includes the following dependencies:
   1. Selenium (Java, ChromeDriver, IEDriver, FirefoxDriver)
