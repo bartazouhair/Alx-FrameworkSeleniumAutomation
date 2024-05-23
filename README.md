@@ -79,7 +79,7 @@ The pom.xml file includes the following dependencies:
   - Changes the profile picture.
   - Saves the information and displays a success message.
   - Takes a screenshot of the updated profile.
-  - 
+   
 5. **Projects : Scenario: Show Projects ALX**
   - Navigates to the login page.
   - Enters valid credentials.
@@ -116,7 +116,7 @@ The project uses Log4j for logging. Log files are saved in the logs directory.
 ## Example or Screenshots
 Please refer to the following video to see the project in action: 
 
-https:// in progress
+(https://drive.google.com/file/d/1qbg7oHbBYxgU9PQYpW63H9vLqiqNc3ps/view?usp=sharing)
 
 ## Authors
 **Zouhair Barta**
