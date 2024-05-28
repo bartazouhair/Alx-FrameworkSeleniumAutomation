@@ -3,10 +3,10 @@ package utils;
 public class Constante {
 
     // User email
-    private String useremail = "bartazouhair@gmail.com";
+    private String useremail = "********@gmail.com";
     
     // User password
-    private String password = "Zouhair.100";
+    private String password = "*********";
     
     // Path to the image file
     private String image = "C:\\Users\\zbarta\\Documents\\BARTA ZOUHAIR\\Capgemini Zouhair Barta\\Stage PFE\\Me\\Photo.png";
